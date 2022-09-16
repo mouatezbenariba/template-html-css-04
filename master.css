@@ -1,0 +1,259 @@
+*,
+:before,
+::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-one: #f5f5f4;
+  --color-two: #ededec;
+  --color-three: #fe1700;
+  --color-four: #f0f4f9;
+}
+
+body {
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
+  font-size: 0.7rem;
+}
+
+/* start framework */
+/*start FontAwesome Icons as Pseudo-Elements */
+.icon::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.dashboard::before {
+  content: '\f080';
+}
+
+.settings::before {
+  content: '\f013';
+}
+
+.profile::before {
+  content: '\f007';
+}
+
+.projects::before {
+  content: '\f542';
+}
+
+.courses::before {
+  content: '\f19d';
+}
+
+.friends::before {
+  content: '\f2bd';
+}
+
+.files::before {
+  content: '\f15b';
+}
+
+.plans::before {
+  content: '\f09d';
+}
+
+.magnifying-glass::before {
+  content: '\f002';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  position: absolute;
+  font-size: 0.7rem;
+  top: 45%;
+  left: 0.5rem;
+  transform: translateY(-50%);
+  color: #9b9b9b;
+}
+
+.dashboard::before,
+.settings::before,
+.profile::before,
+.projects::before,
+.courses::before,
+.friends::before,
+.files::before,
+.plans::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  position: relative;
+  left: -0.5rem;
+}
+/*end FontAwesome Icons as Pseudo-Elements */
+/* start colors */
+/* .color-gy-li {
+} */
+/* end colors */
+/* start special underline 01*/
+.special-underline-1::before {
+  content: '';
+  width: 0.55rem;
+  height: 0.55rem;
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background-color: black;
+  outline: 0.2rem solid white;
+  z-index: 1;
+}
+
+.special-underline-1::after {
+  content: '';
+  width: 4rem;
+  height: 0.1rem;
+  position: absolute;
+  top: 2.26rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: black;
+}
+/* end special underline */
+/* start special underline 02 */
+.special-underline-2::before {
+  content: '';
+  position: absolute;
+  width: 25%;
+  height: 0.1rem;
+  background-color: black;
+  bottom: 0rem;
+  z-index: 2;
+}
+
+.special-underline-2::after {
+  content: '';
+  position: absolute;
+  width: 75%;
+  height: 0.1rem;
+  background-color: white;
+  bottom: 0rem;
+  left: 0;
+  z-index: 1;
+}
+/* end special underline 02 */
+/* start notification true */
+.notif-true::after {
+  content: '';
+  width: 0.4rem;
+  height: 0.4rem;
+  background-color: var(--color-three);
+  position: absolute;
+  border-radius: 50%;
+  top: -0.3rem;
+  right: -0.1rem;
+}
+/* end notification true */
+/* end framework */
+
+.container {
+  display: flex;
+  /* width: 1180px; */
+  /* margin: auto; */
+}
+
+/* start sidebar */
+aside {
+  flex-basis: 10rem;
+  height: 100vh;
+  box-shadow: 1px 0 5px 0px var(--color-one);
+  z-index: 1;
+}
+
+aside h2 {
+  position: relative;
+  margin-bottom: 1.8rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+aside nav ul.nav-links {
+  list-style: none;
+  padding: 0;
+}
+
+aside nav ul.nav-links li {
+  display: flex;
+  align-items: center;
+  width: 8rem;
+  height: 1.7rem;
+  margin: auto;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+  border-radius: 0.15rem;
+  background-color: var(--color-one);
+}
+
+aside nav ul.nav-links li a {
+  text-decoration: none;
+  color: black;
+  margin-left: 0.5rem;
+}
+/* end sidebar */
+
+/* start main */
+main {
+  flex-basis: calc(100vw - 10rem);
+  background-color: var(--color-four);
+}
+
+/* start header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.3rem;
+  padding: 1rem;
+  background-color: white;
+}
+
+.search {
+  position: relative;
+}
+
+input#search {
+  border-style: none;
+  padding: 0.4rem 0rem 0.4rem 1.4rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid var(--color-one);
+  width: 7.4rem;
+  font-size: 0.65rem;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+}
+
+.status i {
+  position: relative;
+  font-size: 1rem;
+}
+
+.status .image-user {
+  width: 1.4rem;
+  margin-left: 0.7rem;
+}
+
+.image-user img {
+  max-width: 100%;
+}
+/* end header */
+/* start main-content  */
+main section.main-content {
+  padding: 0.5rem 1rem;
+}
+
+main section.main-content h1 {
+  font-size: 1.5rem;
+  width: fit-content;
+  margin-top: 0;
+  position: relative;
+}
+/* end main-content  */
+/* end main */
