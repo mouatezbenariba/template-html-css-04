@@ -10,6 +10,7 @@
   --color-three: #fe1700;
   --color-four: #f0f4f9;
   --color-five: #a0a09f;
+  --color-six: #0075ff;
 }
 
 body {
@@ -151,6 +152,11 @@ body {
 }
 /* end notification true */
 /* start main content card titles */
+.title {
+  position: relative;
+  z-index: 1;
+}
+
 .title h2 {
   margin: 0;
   margin-top: -0.5rem;
@@ -272,9 +278,10 @@ main section.main-content h1 {
   position: relative;
 }
 
+/* start page 01 : dashboard */
 main section.main-content .content {
   display: grid;
-  grid-template-columns: repeat(3, 23rem);
+  grid-template-columns: repeat(3, 23.6rem);
   grid-template-rows: repeat(5, minmax(18rem, 1fr));
   grid-gap: 1rem;
 }
@@ -290,5 +297,93 @@ main section.main-content .content {
 .content .my-projects {
   grid-column: 1/4;
 }
+
+/* start welcome */
+.welcome {
+  position: relative;
+}
+
+.welcome .banner {
+  position: relative;
+  top: -4rem;
+  transform: translateX(-1rem);
+  width: calc(100% + 2rem);
+  height: 8.2rem;
+  background-color: var(--color-two);
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.welcome .banner img {
+  width: 14rem;
+  position: absolute;
+  right: 0;
+}
+
+.welcome .description .user {
+  position: absolute;
+  top: -5.5rem;
+  width: 3rem;
+  border: 0.22rem solid white;
+  border-radius: 50%;
+}
+
+.description .user img {
+  max-width: 100%;
+}
+
+.welcome .description {
+  position: relative;
+}
+
+.welcome .description .info {
+  position: absolute;
+  top: 50%;
+  transform: translate(-1rem, -50%);
+  display: flex;
+  justify-content: space-evenly;
+  width: calc(100% + 2rem);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-top: 0.1rem solid var(--color-two);
+  border-bottom: 0.1rem solid var(--color-two);
+  text-align: center;
+}
+
+.welcome .description .info span {
+  display: block;
+}
+
+.welcome .description button {
+  position: relative;
+  left: 17.65rem;
+  top: 3.55rem;
+}
+
+.welcome .description .info div span:first-child {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.welcome .description .info div span:last-child {
+  font-size: 0.75rem;
+  color: var(--color-five);
+}
+
+.welcome .description button {
+  position: relative;
+  left: 18.5rem;
+  top: 3.7rem;
+  border-style: none;
+  border-radius: 0.3rem;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.7rem;
+  background-color: var(--color-six);
+  color: white;
+  cursor: pointer;
+}
+/* end welcome */
+
+/* end page 01 : dashboard */
+/* start */
 /* end main-content  */
 /* end main */
