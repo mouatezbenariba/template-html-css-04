@@ -90,6 +90,16 @@ body {
 }
 /*end FontAwesome Icons as Pseudo-Elements */
 /* start colors / background colors / border-colors */
+.red-cl {
+  color: var(--color-three);
+}
+.red-cl-bf::before {
+  color: var(--color-three);
+}
+.red-cl-af::after {
+  color: var(--color-three);
+}
+
 .blue-cl {
   color: var(--color-six);
 }
@@ -634,6 +644,38 @@ main section.main-content .content {
   left: 12.8rem;
 }
 /* end yearly target */
+/* start tickets stats  */
+.tasks-stats .tasks-stats-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+
+.tasks-stats-content .tasks-stats-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0.125rem solid var(--color-two);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.tasks-stats-content .tasks-stats-card i {
+  font-size: 1.1rem;
+}
+
+.tasks-stats-card .stat {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.tasks-stats-card span.stat-info {
+  margin-top: -0.2rem;
+  font-weight: 600;
+  color: var(--color-five);
+}
+/* end tickets stat */
 /* end page 01 : dashboard */
 /* start */
 /* end main-content  */
