@@ -10,7 +10,9 @@
   --color-three: #fe1700;
   --color-four: #f0f4f9;
   --color-five: #a0a09f;
-  --color-six: #0075ff;
+  --color-six: #006ef2;
+  --color-seven: #ff9f0a;
+  --color-eight: #18a558;
 }
 
 body {
@@ -87,8 +89,95 @@ body {
   left: -0.5rem;
 }
 /*end FontAwesome Icons as Pseudo-Elements */
-/* start colors */
-/* .color-gy-li {
+/* start colors / background colors / border-colors */
+.blue-cl {
+  color: var(--color-six);
+}
+.blue-cl-bf::before {
+  color: var(--color-six);
+}
+.blue-cl-af::after {
+  color: var(--color-six);
+}
+
+.blue-bg {
+  background-color: var(--color-six);
+}
+.blue-bg-bf::before {
+  background-color: var(--color-six);
+}
+.blue-bg-af::after {
+  background-color: var(--color-six);
+}
+
+/* .blue-br {
+  border-color: var(--color-six);
+}
+.blue-br-bf::before {
+  border-color: var(--color-six);
+}
+.blue-br-af::after {
+  border-color: var(--color-six);
+} */
+
+.orange-cl {
+  color: var(--color-seven);
+}
+.orange-cl-bf::before {
+  color: var(--color-seven);
+}
+.orange-cl-af::after {
+  color: var(--color-seven);
+}
+
+.orange-bg {
+  background-color: var(--color-seven);
+}
+.orange-bg-bf::before {
+  background-color: var(--color-seven);
+}
+.orange-bg-af::after {
+  background-color: var(--color-seven);
+}
+
+/* .orange-br {
+  border-color: var(--color-seven);
+}
+.orange-br-bf::before {
+  border-color: var(--color-seven);
+}
+.orange-br-af::after {
+  border-color: var(--color-seven);
+} */
+
+.green-cl {
+  color: var(--color-eight);
+}
+.green-cl-bf::before {
+  color: var(--color-eight);
+}
+.green-cl-af::after {
+  color: var(--color-eight);
+}
+
+.green-bg {
+  background-color: var(--color-eight);
+}
+.green-bg-bf::before {
+  background-color: var(--color-eight);
+}
+.green-bg-af::after {
+  background-color: var(--color-eight);
+}
+
+/* .green-br {
+  background-color: var(--color-eight);
+}
+.green-br-bf::before {
+  background-color: var(--color-eight);
+}
+.green-br-af::after {
+  background-color: var(--color-eight);
 } */
 /* end colors */
 /* start special underline 01*/
@@ -164,13 +253,23 @@ body {
 }
 
 .title p {
-  margin: 0;
   margin-top: -0.3rem;
   font-size: 0.8rem;
   font-weight: 600;
   color: var(--color-five);
 }
 /* end main content card titles */
+/* start default button style */
+.def-btn-st {
+  border-style: none;
+  border-radius: 0.3rem;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.7rem;
+  background-color: var(--color-six);
+  color: white;
+  cursor: pointer;
+}
+/* end button */
 /* end framework */
 
 .container {
@@ -305,7 +404,7 @@ main section.main-content .content {
 
 .welcome .banner {
   position: relative;
-  top: -4rem;
+  top: -4.71rem;
   transform: translateX(-1rem);
   width: calc(100% + 2rem);
   height: 8.2rem;
@@ -319,6 +418,11 @@ main section.main-content .content {
   right: 0;
 }
 
+.welcome .description {
+  position: relative;
+  top: -1rem;
+}
+
 .welcome .description .user {
   position: absolute;
   top: -5.5rem;
@@ -329,10 +433,6 @@ main section.main-content .content {
 
 .description .user img {
   max-width: 100%;
-}
-
-.welcome .description {
-  position: relative;
 }
 
 .welcome .description .info {
@@ -353,12 +453,6 @@ main section.main-content .content {
   display: block;
 }
 
-.welcome .description button {
-  position: relative;
-  left: 17.65rem;
-  top: 3.55rem;
-}
-
 .welcome .description .info div span:first-child {
   font-size: 0.85rem;
   font-weight: 600;
@@ -371,18 +465,175 @@ main section.main-content .content {
 
 .welcome .description button {
   position: relative;
-  left: 18.5rem;
-  top: 3.7rem;
-  border-style: none;
-  border-radius: 0.3rem;
-  padding: 0.3rem 0.5rem;
-  font-size: 0.7rem;
-  background-color: var(--color-six);
-  color: white;
-  cursor: pointer;
+  left: 18.8rem;
+  top: 3.9rem;
 }
 /* end welcome */
+/* start draft */
+.draft {
+  position: relative;
+}
 
+.draft .thoughts {
+  display: grid;
+  grid-template-rows: 1fr 7rem;
+  row-gap: 1rem;
+}
+
+.draft .thoughts input,
+.draft .thoughts textarea {
+  border-style: none;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  background-color: var(--color-two);
+}
+
+.draft .thoughts textarea {
+  resize: none;
+}
+
+.draft .thoughts button {
+  position: absolute;
+  bottom: 0.8rem;
+  right: 0.9rem;
+}
+/* end draft */
+/* start yearly target */
+.y-target-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: -0.3rem;
+}
+
+.y-target-content-piece:not(:first-child) {
+  margin-top: 0.9rem;
+}
+
+.y-target .y-target-content .y-target-content-piece {
+  display: flex;
+  align-items: center;
+}
+
+.y-target-content-piece i {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 3.65rem;
+  height: 3.65rem;
+  font-size: 0.9rem;
+}
+
+.y-target-content-piece i:before {
+  z-index: 1;
+}
+
+.y-target-content-piece i:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+}
+
+.y-target-content-piece .y-target-content-info {
+  position: relative;
+  top: -0.5rem;
+  margin-left: 0.8rem;
+}
+
+.y-target-content-info span {
+  display: block;
+  line-height: 1.8;
+}
+
+.y-target-content-info span:first-child {
+  font-size: 0.75rem;
+  color: var(--color-five);
+}
+
+.y-target-content-info span:first-child:before {
+  content: '';
+  position: absolute;
+  top: 3rem;
+  width: 17.15rem;
+  height: 0.2rem;
+  opacity: 0.3;
+}
+
+.y-target-content-info span:first-child:after {
+  content: '';
+  position: absolute;
+  top: 3rem;
+  left: 0;
+  height: 0.2rem;
+}
+
+.y-target-content-info span:last-child {
+  font-weight: 700;
+  font-size: 0.79rem;
+}
+
+.y-target-content-info span:last-child::before {
+  position: absolute;
+  padding: 0.01rem 0.3rem;
+  border-radius: 0.3rem;
+  color: white;
+  font-size: 0.59rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.y-target-content-info span:last-child::after {
+  content: '';
+  position: absolute;
+  top: 2.3rem;
+  border: 0.3rem solid;
+  border-color: transparent;
+}
+
+.y-target-content-piece:first-child .y-target-content-info span:first-child::after {
+  width: 6.86rem;
+}
+
+.y-target-content-piece:nth-child(2) .y-target-content-info span:first-child::after {
+  width: 9.43rem;
+}
+
+.y-target-content-piece:last-child .y-target-content-info span:first-child::after {
+  width: 13.12rem;
+}
+
+.y-target-content-piece:first-child .y-target-content-info span:last-child::before {
+  content: '40%';
+  left: 6rem;
+}
+
+.y-target-content-piece:nth-child(2) .y-target-content-info span:last-child::before {
+  content: '55%';
+  left: 8.6rem;
+}
+
+.y-target-content-piece:last-child .y-target-content-info span:last-child::before {
+  content: '75%';
+  left: 12.3rem;
+}
+
+.y-target-content-piece:first-child .y-target-content-info span:last-child::after {
+  border-top-color: var(--color-six);
+  left: 6.5rem;
+}
+
+.y-target-content-piece:nth-child(2) .y-target-content-info span:last-child::after {
+  border-top-color: var(--color-seven);
+  left: 9.1rem;
+}
+
+.y-target-content-piece:last-child .y-target-content-info span:last-child::after {
+  border-top-color: var(--color-eight);
+  left: 12.8rem;
+}
+/* end yearly target */
 /* end page 01 : dashboard */
 /* start */
 /* end main-content  */
