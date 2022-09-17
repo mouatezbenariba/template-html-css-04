@@ -391,7 +391,7 @@ main section.main-content h1 {
 main section.main-content .content {
   display: grid;
   grid-template-columns: repeat(3, 23.6rem);
-  grid-template-rows: repeat(5, minmax(18rem, 1fr));
+  grid-template-rows: repeat(5, minmax(18rem, auto));
   grid-gap: 1rem;
 }
 
@@ -676,6 +676,56 @@ main section.main-content .content {
   color: var(--color-five);
 }
 /* end tickets stat */
+/* start news */
+.news .news-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-content .news-content-piece {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.news-content-piece:not(:last-child) {
+  border-bottom: 0.12rem solid var(--color-two);
+  padding-bottom: 0.45rem;
+}
+
+.news-content-piece .news-image {
+  width: 4.9rem;
+  height: 2.5rem;
+}
+
+.news-image img {
+  max-width: 100%;
+  height: 100%;
+  border-radius: 0.3rem;
+}
+
+.news-content-piece .news-info {
+  flex-basis: 55%;
+}
+
+.news-info h3 {
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+}
+
+.news-info p {
+  margin-top: -0.1rem;
+  font-weight: 600;
+  color: var(--color-five);
+}
+
+.news-content-piece span.news-time {
+  background-color: var(--color-two);
+  padding: 0rem 0.5rem;
+  border-radius: 0.2rem;
+  font-size: 0.65rem;
+}
+/* end news */
 /* end page 01 : dashboard */
 /* start */
 /* end main-content  */
