@@ -121,14 +121,14 @@ body {
 }
 
 /* .blue-br {
-  border-color: var(--color-six);
-}
-.blue-br-bf::before {
-  border-color: var(--color-six);
-}
-.blue-br-af::after {
-  border-color: var(--color-six);
-} */
+    border-color: var(--color-six);
+  }
+  .blue-br-bf::before {
+    border-color: var(--color-six);
+  }
+  .blue-br-af::after {
+    border-color: var(--color-six);
+  } */
 
 .orange-cl {
   color: var(--color-seven);
@@ -151,14 +151,14 @@ body {
 }
 
 /* .orange-br {
-  border-color: var(--color-seven);
-}
-.orange-br-bf::before {
-  border-color: var(--color-seven);
-}
-.orange-br-af::after {
-  border-color: var(--color-seven);
-} */
+    border-color: var(--color-seven);
+  }
+  .orange-br-bf::before {
+    border-color: var(--color-seven);
+  }
+  .orange-br-af::after {
+    border-color: var(--color-seven);
+  } */
 
 .green-cl {
   color: var(--color-eight);
@@ -181,14 +181,14 @@ body {
 }
 
 /* .green-br {
-  background-color: var(--color-eight);
-}
-.green-br-bf::before {
-  background-color: var(--color-eight);
-}
-.green-br-af::after {
-  background-color: var(--color-eight);
-} */
+    background-color: var(--color-eight);
+  }
+  .green-br-bf::before {
+    background-color: var(--color-eight);
+  }
+  .green-br-af::after {
+    background-color: var(--color-eight);
+  } */
 /* end colors */
 /* start special underline 01*/
 .special-underline-1::before {
@@ -725,7 +725,33 @@ main section.main-content .content {
   border-radius: 0.2rem;
   font-size: 0.65rem;
 }
+
 /* end news */
+/* start latest tasks */
+.l-tasks-content .task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1.7;
+}
+
+.l-tasks-content .task:not(:last-child) {
+  padding-bottom: 0.5rem;
+  border-bottom: 0.12rem solid var(--color-two);
+}
+
+.l-tasks-content .task .task-desc h3 {
+  margin: 0;
+  font-size: 0.76rem;
+}
+
+.l-tasks-content .task .task-desc p {
+  margin: 0;
+  color: var(--color-five);
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+/* end latest tasks */
 /* end page 01 : dashboard */
 /* start */
 /* end main-content  */
