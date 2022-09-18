@@ -428,6 +428,7 @@ body {
   padding: 0rem 0.5rem;
   border-radius: 0.2rem;
   font-size: 0.65rem;
+  width: fit-content;
   height: 1.3rem;
 }
 /* end small box rectangle */
@@ -628,8 +629,14 @@ body {
   position: relative;
 }
 /* end position */
+/* start text decoration */
+.txt-deco-ln-thr {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+}
+/* end text decoration */
 /* end framework */
-
+/* ------------------------------------------------------------------------------- */
 .container {
   /* width: 1180px; */
   /* margin: auto; */
@@ -1051,6 +1058,10 @@ main section.main-content .content {
   border-bottom: 0.12rem solid var(--color-two);
 }
 
+.l-tasks-content .task:not(:first-child) {
+  padding-top: 0.5rem;
+}
+
 .l-tasks-content .task .task-desc h3 {
   margin: 0;
   font-size: 0.76rem;
@@ -1058,7 +1069,6 @@ main section.main-content .content {
 
 .l-tasks-content .task .task-desc p {
   margin: 0;
-  color: var(--color-five);
 }
 /* end latest tasks */
 /* start top search items  */
@@ -1256,6 +1266,34 @@ ul.social-stat-content li::before {
   margin-left: 0.8rem;
 }
 /* end social media stats  */
+/* start projects  */
+.my-projects-content table {
+  margin-top: 0.3rem;
+  text-align: left;
+  border-color: var(--color-two);
+  border-collapse: collapse;
+}
+
+.my-projects-content table thead th {
+  padding: 0.6rem;
+}
+
+.my-projects-content table tbody td {
+  padding: 0.8rem 0.6rem;
+}
+
+.projects-team-images {
+  margin-left: 0.7rem;
+}
+
+.projects-team-images img {
+  width: 1.6rem;
+  border: 0.15rem solid white;
+  border-radius: 50%;
+  position: relative;
+  margin-left: -0.8rem;
+}
+/* end projects  */
 /* end page 01 : dashboard */
 /* end main-content  */
 /* end main */
