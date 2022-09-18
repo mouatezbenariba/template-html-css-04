@@ -88,6 +88,16 @@ body {
 }
 /*end FontAwesome Icons as Pseudo-Elements */
 /* start colors / background colors / border-colors */
+.white-bg {
+  background-color: white;
+}
+.white-bg-bf::before {
+  background-color: white;
+}
+.white-bg-af::after {
+  background-color: white;
+}
+
 .red-cl {
   color: var(--color-three);
 }
@@ -96,6 +106,16 @@ body {
 }
 .red-cl-af::after {
   color: var(--color-three);
+}
+
+.red-bg {
+  background-color: var(--color-three);
+}
+.red-bg-bf::before {
+  background-color: var(--color-three);
+}
+.red-bg-af::after {
+  background-color: var(--color-three);
 }
 
 .grey-2-cl {
@@ -922,6 +942,10 @@ main section.main-content .content {
 }
 /* end latest tasks */
 /* start top search items  */
+.top-search-title {
+  margin-top: 0.3rem;
+}
+
 .top-search-content ul li {
   display: flex;
   justify-content: space-between;
@@ -938,9 +962,12 @@ main section.main-content .content {
 li.top-search-title span {
   color: var(--color-five);
 }
-
 /* end top search items  */
 /* start latest uploads  */
+.l-upload-content {
+  margin-top: 0.3rem;
+}
+
 ul.l-upload-content li:not(:last-child) {
   padding-bottom: 0.1rem;
   border-bottom: 0.12rem solid var(--color-two);
@@ -966,7 +993,90 @@ ul.l-upload-content li:not(:first-child) {
   max-width: 100%;
 }
 /* end latest uploads  */
+/* start progress projects  */
+ul.c-project-content {
+  position: relative;
+  margin-top: 0.3rem;
+  margin-left: 1.5rem;
+}
+
+ul.c-project-content li {
+  position: relative;
+}
+
+ul.c-project-content li:before {
+  content: '';
+  position: absolute;
+  left: -1.8rem;
+  top: 0.15rem;
+  width: 1.3rem;
+  height: 1.3rem;
+  border: 1px solid var(--color-six);
+  border-radius: 50%;
+}
+
+ul.c-project-content li:after {
+  content: '';
+  position: absolute;
+  left: -1.65rem;
+  top: 0.3rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+
+ul.c-project-content li:not(:last-child) {
+  padding-bottom: 0.8rem;
+}
+
+ul.c-project-content::before {
+  content: '';
+  position: absolute;
+  width: 0.1rem;
+  height: calc(100% - 0.5rem);
+  transform: translateY(0.2rem);
+  left: -1.2rem;
+}
+/* end progress projects  */
+/* start reminders */
+ul.reminders-content {
+  margin-left: 2.3rem;
+  margin-top: 0.3rem;
+}
+
+ul.reminders-content li {
+  position: relative;
+}
+
+ul.reminders-content li:not(:last-child) {
+  margin-bottom: 0.6rem;
+}
+
+ul.reminders-content li:before {
+  content: '';
+  position: absolute;
+  left: -0.9rem;
+  height: calc(100% - 0.3rem);
+  top: 0.15rem;
+  width: 0.12rem;
+}
+
+ul.reminders-content li:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -2.3rem;
+  transform: translateY(-50%);
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+}
+
+ul.reminders-content li h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* end reminders */
 /* end page 01 : dashboard */
-/* start */
 /* end main-content  */
 /* end main */
