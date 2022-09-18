@@ -28,10 +28,10 @@
       rel="stylesheet"
     />
     <!-- openGraph tags -->
-    <title></title>
+    <title>Settings</title>
   </head>
-  <body>
-    <div class="container">
+  <body class="ft-sz-0-7">
+    <div class="container dp-fx">
       <aside>
         <h2 class="special-underline-1">Elzero</h2>
         <nav>
@@ -49,21 +49,148 @@
       </aside>
       <main>
         <header>
-          <div class="search icon magnifying-glass">
-            <!-- icon search using ::before -->
-            <input type="search" name="search" id="search" placeholder="Search Keyword" />
+          <div class="search icon magnifying-glass ft-sz-0-7-bf">
+            <input
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Search Keyword"
+              class="ft-sz-0-65"
+            />
           </div>
           <div class="status">
             <!-- icon bell -->
-            <i class="fa-regular fa-bell notif-true"></i>
+            <i class="fa-regular fa-bell notif-true ft-sz-1"></i>
             <div class="image-user">
-              <img src="../images/a3198.webp" alt="" />
+              <img src="../images/user.webp" alt="" />
             </div>
             <!-- icon user -->
           </div>
         </header>
         <section class="main-content">
           <h1 class="special-underline-2">Settings</h1>
+          <div class="content">
+            <div class="site-control">
+              <div class="title">
+                <h2>Site Control</h2>
+                <p>Control The Website If There Is Maintenance</p>
+              </div>
+              <div class="site-control-content dp-gd">
+                <div class="control-info dp-fx fx-js-bt fx-al-ct">
+                  <div class="control-title">
+                    <h3 class="margin-0">Website Control</h3>
+                    <p class="margin-0 ft-sz-0-7 ft-wg-600 grey-5-cl">
+                      Open/Close website And Type The Reason
+                    </p>
+                  </div>
+                  <div class="toggle">
+                    <label>
+                      <input type="checkbox" />
+                      <i class="fa-solid fa-circle-check"></i>
+                    </label>
+                  </div>
+                </div>
+                <textarea
+                  name="reason"
+                  id="reason"
+                  placeholder="Close Message Content"
+                ></textarea>
+              </div>
+            </div>
+            <div class="general-info">
+              <div class="title">
+                <h2>General Info</h2>
+                <p>General Information About Your Account</p>
+              </div>
+              <div class="general-content">
+                <div class="general-content-field dp-fx fx-dir-col">
+                  <label for="first-name" class="ft-sz-0-75 ft-wg-600 grey-5-cl"
+                    >First Name</label
+                  >
+                  <input type="text" id="first-name" placeholder="First Name" />
+                </div>
+                <div class="general-content-field dp-fx fx-dir-col">
+                  <label for="last-name" class="ft-sz-0-75 ft-wg-600 grey-5-cl"
+                    >Last Name</label
+                  >
+                  <input type="text" id="last-name" placeholder="Last Name" />
+                </div>
+                <div class="general-content-field dp-fx fx-js-bt fx-al-ct">
+                  <div class="dp-fx fx-dir-col">
+                    <label for="email" class="ft-sz-0-75 ft-wg-600 grey-5-cl"
+                      >Email</label
+                    >
+                    <input type="email" id="email" placeholder="o@nn.sa" />
+                  </div>
+                  <button class="email-action ft-wg-600 tw-cl def-btn-st transp-bg">
+                    Change
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="security-info">
+              <div class="title">
+                <h2>Security Info</h2>
+                <p>Security Information About Your Account</p>
+              </div>
+              <div class="security-info-content">
+                <div class="sec-info dp-fx fx-js-bt fx-al-ct">
+                  <div class="sec-info-desc">
+                    <h3 class="ft-sz-0-75 margin-0">Password</h3>
+                    <p class="ft-sz-0-7 grey-5-cl margin-0">Last Change On 25/10/2021</p>
+                  </div>
+                  <div class="sec-action">
+                    <button class="def-btn-st white-cl blue-bg">Change</button>
+                  </div>
+                </div>
+                <div class="sec-info dp-fx fx-js-bt fx-al-ct">
+                  <div class="sec-info-desc">
+                    <h3 class="ft-sz-0-75 margin-0">Two-Factor Authentication</h3>
+                    <p class="ft-sz-0-7 grey-5-cl margin-0">Enable/Disable The Feature</p>
+                  </div>
+                  <div class="sec-action">
+                    <div class="toggle">
+                      <label>
+                        <input type="checkbox" />
+                        <i class="fa-solid fa-circle-check"></i>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="sec-info dp-fx fx-js-bt fx-al-ct">
+                  <div class="sec-info-desc">
+                    <h3 class="ft-sz-0-75 margin-0">Devices</h3>
+                    <p class="ft-sz-0-7 grey-5-cl margin-0">
+                      Check The Login Devices List
+                    </p>
+                  </div>
+                  <div class="sec-action">
+                    <div class="sec-action">
+                      <button class="def-btn-st grey-2-bg">Change</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="social-info">
+              <div class="title">
+                <h2>Social Info</h2>
+                <p>Social Media Information</p>
+              </div>
+            </div>
+            <div class="widgets-control">
+              <div class="title">
+                <h2>Widgets Control</h2>
+                <p>Hide/Show Website Widgets</p>
+              </div>
+            </div>
+            <div class="backup-manager">
+              <div class="title">
+                <h2>Backup Manager</h2>
+                <p>Control Backup Date And Location</p>
+              </div>
+            </div>
+          </div>
         </section>
       </main>
     </div>
