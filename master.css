@@ -98,8 +98,44 @@ body {
   color: var(--color-three);
 }
 
+.grey-2-cl {
+  color: var(--color-two);
+}
+.grey-2-cl-bf::before {
+  color: var(--color-two);
+}
+.grey-2-cl-af::after {
+  color: var(--color-two);
+}
+
 .grey-2-bg {
   background-color: var(--color-two);
+}
+.grey-2-bg-bf::before {
+  background-color: var(--color-two);
+}
+.grey-2-bg-af::after {
+  background-color: var(--color-two);
+}
+
+.grey-5-cl {
+  color: var(--color-five);
+}
+.grey-5-cl-bf::before {
+  color: var(--color-five);
+}
+.grey-5-cl-af::after {
+  color: var(--color-five);
+}
+
+.grey-5-bg {
+  background-color: var(--color-five);
+}
+.grey-5-bg-bf::before {
+  background-color: var(--color-five);
+}
+.grey-5-bg-af::after {
+  background-color: var(--color-five);
 }
 
 .blue-cl {
@@ -428,16 +464,30 @@ body {
 }
 /* end display block */
 /* start display flex  */
-.db-fx {
+.dp-fx {
   display: flex;
 }
-.db-fx-bf::before {
+.dp-fx-bf::before {
   display: flex;
 }
-.db-fx-af::after {
+.dp-fx-af::after {
   display: flex;
 }
 /* end display flex  */
+.fx-js-bt {
+  justify-content: space-between;
+}
+
+.fx-al-ct {
+  align-items: center;
+}
+/* start remove default list style */
+.remove-lt-style {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* end remove default list style *
 /* end framework */
 
 .container {
@@ -872,12 +922,6 @@ main section.main-content .content {
 }
 /* end latest tasks */
 /* start top search items  */
-.top-search-content ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 .top-search-content ul li {
   display: flex;
   justify-content: space-between;
@@ -888,7 +932,7 @@ main section.main-content .content {
 }
 
 .top-search-content ul li:not(:last-child) {
-  padding-bottom: 0.8rem;
+  padding-bottom: 1rem;
 }
 
 li.top-search-title span {
@@ -896,6 +940,32 @@ li.top-search-title span {
 }
 
 /* end top search items  */
+/* start latest uploads  */
+ul.l-upload-content li:not(:last-child) {
+  padding-bottom: 0.1rem;
+  border-bottom: 0.12rem solid var(--color-two);
+}
+
+ul.l-upload-content li:not(:first-child) {
+  padding-top: 0.1rem;
+}
+
+.file-info {
+  margin-left: 0.6rem;
+}
+
+.file-info .author {
+  margin-top: -0.3rem;
+}
+
+.file-image {
+  width: 1.8rem;
+}
+
+.file-image img {
+  max-width: 100%;
+}
+/* end latest uploads  */
 /* end page 01 : dashboard */
 /* start */
 /* end main-content  */
