@@ -10,7 +10,7 @@
   --color-three: #fe1700;
   --color-four: #f0f4f9;
   --color-five: #a0a09f;
-  --color-six: #006ef2;
+  --color-six: #0891ff;
   --color-seven: #ff9f0a;
   --color-eight: #18a558;
   --color-twitter: #1da1f2;
@@ -92,6 +92,26 @@ body {
 }
 /*end FontAwesome Icons as Pseudo-Elements */
 /* start colors / background colors / border-colors */
+.transp-cl {
+  color: transparent;
+}
+.transp-cl-bf::before {
+  color: transparent;
+}
+.transp-cl-bf::after {
+  color: transparent;
+}
+
+.transp-bg {
+  background-color: transparent;
+}
+.transp-bg-bf::before {
+  background-color: transparent;
+}
+.transp-bg-bf::after {
+  background-color: transparent;
+}
+
 .tw-cl {
   color: var(--color-twitter);
 }
@@ -416,8 +436,6 @@ body {
   border-style: none;
   border-radius: 0.3rem;
   padding: 0.3rem 0.5rem;
-  background-color: var(--color-six);
-  color: white;
   cursor: pointer;
 }
 /* end button */
@@ -600,6 +618,17 @@ body {
   display: flex;
 }
 /* end display flex  */
+/* start display grid  */
+.dp-gd {
+  display: grid;
+}
+.dp-gd-bf::before {
+  display: grid;
+}
+.dp-gd-af::after {
+  display: grid;
+}
+/* end display grid  */
 .fx-js-bt {
   justify-content: space-between;
 }
@@ -610,6 +639,10 @@ body {
 
 .fx-al-ct {
   align-items: center;
+}
+
+.fx-dir-col {
+  flex-direction: column;
 }
 /* start remove default list style */
 .remove-lt-style {
@@ -635,6 +668,59 @@ body {
   text-decoration-thickness: 2px;
 }
 /* end text decoration */
+/* start Margin */
+.margin-0 {
+  margin: 0;
+}
+/* end Margin */
+/* start add Switch Toggle */
+.toggle > label {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 1.5rem;
+}
+
+.toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggle i {
+  position: absolute;
+  cursor: pointer;
+  top: -1px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+}
+
+.toggle i:before {
+  position: absolute;
+  content: '\f057';
+  left: 2px;
+  top: 3px;
+  bottom: 4px;
+  font-size: 1.22rem;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+.toggle input:checked + i {
+  background-color: #2196f3;
+}
+
+.toggle input:checked + i:before {
+  content: '\f058';
+  transform: translateX(35px);
+}
+
+.toggle i {
+  border-radius: 34px;
+}
+/* end add Switch Toggle */
 /* end framework */
 /* ------------------------------------------------------------------------------- */
 .container {
@@ -743,7 +829,7 @@ main section.main-content h1 {
 main section.main-content .content {
   display: grid;
   grid-template-columns: repeat(3, 23.6rem);
-  grid-template-rows: repeat(5, minmax(17rem, auto));
+  grid-auto-rows: minmax(17rem, auto);
   grid-gap: 1rem;
 }
 
@@ -1062,14 +1148,6 @@ main section.main-content .content {
   padding-top: 0.5rem;
 }
 
-.l-tasks-content .task .task-desc h3 {
-  margin: 0;
-  font-size: 0.76rem;
-}
-
-.l-tasks-content .task .task-desc p {
-  margin: 0;
-}
 /* end latest tasks */
 /* start top search items  */
 .top-search-title {
@@ -1295,5 +1373,54 @@ ul.social-stat-content li::before {
 }
 /* end projects  */
 /* end page 01 : dashboard */
+/* start page 02 : Settings  */
+/* start Site Control  */
+.site-control textarea {
+  resize: none;
+  border-color: var(--color-two);
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.site-control-content {
+  grid-template-rows: 3.3rem 7.8rem;
+  margin-top: -0.4rem;
+}
+/* end Site Control  */
+/* start general info  */
+.general-content-field:not(:last-child) {
+  margin-bottom: 0.55rem;
+}
+
+.general-content-field input {
+  padding: 0.5rem;
+  border: 1px solid var(--color-two);
+  border-radius: 0.3rem;
+}
+
+.general-content-field:last-child > div {
+  flex-basis: 17rem;
+}
+
+.email-action {
+  margin-bottom: -1.4rem;
+}
+/* end general info  */
+/* add security info */
+.sec-info:not(:first-child) {
+  padding-top: 0.5rem;
+}
+
+.sec-info:not(:last-child) {
+  padding-bottom: 0.5rem;
+  border-bottom: 0.12rem solid var(--color-two);
+}
+
+.sec-action button {
+  padding: 0.6rem 0.5rem;
+}
+/* end security info */
+/* end page 02 : Settings  */
 /* end main-content  */
 /* end main */
