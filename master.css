@@ -18,7 +18,6 @@
 body {
   margin: 0;
   font-family: 'Cairo', sans-serif;
-  font-size: 0.7rem;
 }
 
 /* start framework */
@@ -68,7 +67,6 @@ body {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   position: absolute;
-  font-size: 0.7rem;
   top: 45%;
   left: 0.5rem;
   transform: translateY(-50%);
@@ -98,6 +96,10 @@ body {
 }
 .red-cl-af::after {
   color: var(--color-three);
+}
+
+.grey-2-bg {
+  background-color: var(--color-two);
 }
 
 .blue-cl {
@@ -179,16 +181,6 @@ body {
 .green-bg-af::after {
   background-color: var(--color-eight);
 }
-
-/* .green-br {
-    background-color: var(--color-eight);
-  }
-  .green-br-bf::before {
-    background-color: var(--color-eight);
-  }
-  .green-br-af::after {
-    background-color: var(--color-eight);
-  } */
 /* end colors */
 /* start special underline 01*/
 .special-underline-1::before {
@@ -274,16 +266,181 @@ body {
   border-style: none;
   border-radius: 0.3rem;
   padding: 0.3rem 0.5rem;
-  font-size: 0.7rem;
   background-color: var(--color-six);
   color: white;
   cursor: pointer;
 }
 /* end button */
+/* start small box rectangle */
+.box-rec-small {
+  display: flex;
+  align-items: center;
+  padding: 0rem 0.5rem;
+  border-radius: 0.2rem;
+  font-size: 0.65rem;
+  height: 1.3rem;
+}
+/* end small box rectangle */
+/* start Font */
+/* start Font Weight */
+.ft-wg-400 {
+  font-weight: 400;
+}
+.ft-wg-400-bf::before {
+  font-weight: 400;
+}
+.ft-wg-400-af::after {
+  font-weight: 400;
+}
+
+.ft-wg-700 {
+  font-weight: 700;
+}
+.ft-wg-700-bf::before {
+  font-weight: 700;
+}
+.ft-wg-700-af::after {
+  font-weight: 700;
+}
+
+.ft-wg-600 {
+  font-weight: 600;
+}
+.ft-wg-600-bf::before {
+  font-weight: 600;
+}
+.ft-wg-600-af::after {
+  font-weight: 600;
+}
+/* end font weight */
+/* start font size */
+.ft-sz-0-6 {
+  font-size: 0.6rem;
+}
+.ft-sz-0-6-af::after {
+  font-size: 0.6rem;
+}
+.ft-sz-0-6-bf::before {
+  font-size: 0.6rem;
+}
+
+.ft-sz-0-65 {
+  font-size: 0.65rem;
+}
+.ft-sz-0-65-af::after {
+  font-size: 0.65rem;
+}
+.ft-sz-0-65-bf::before {
+  font-size: 0.65rem;
+}
+
+.ft-sz-0-7 {
+  font-size: 0.7rem;
+}
+.ft-sz-0-7-af::after {
+  font-size: 0.7rem;
+}
+.ft-sz-0-7-bf::before {
+  font-size: 0.7rem;
+}
+
+.ft-sz-0-75 {
+  font-size: 0.75rem;
+}
+.ft-sz-0-75-af::after {
+  font-size: 0.75rem;
+}
+.ft-sz-0-75-bf::before {
+  font-size: 0.75rem;
+}
+
+.ft-sz-0-8 {
+  font-size: 0.8rem;
+}
+.ft-sz-0-8-af::after {
+  font-size: 0.8rem;
+}
+.ft-sz-0-8-bf::before::before {
+  font-size: 0.8rem;
+}
+
+.ft-sz-0-85 {
+  font-size: 0.85rem;
+}
+.ft-sz-0-85-af::after {
+  font-size: 0.85rem;
+}
+.ft-sz-0-85-bf::before::before {
+  font-size: 0.85rem;
+}
+
+.ft-sz-0-9 {
+  font-size: 0.9rem;
+}
+.ft-sz-0-9-af::after {
+  font-size: 0.9rem;
+}
+.ft-sz-0-9-bf::before::before {
+  font-size: 0.9rem;
+}
+
+.ft-sz-1 {
+  font-size: 1rem;
+}
+.ft-sz-1-af::after {
+  font-size: 1rem;
+}
+.ft-sz-1-bf::before::before {
+  font-size: 1rem;
+}
+
+.ft-sz-1-1 {
+  font-size: 1.1rem;
+}
+.ft-sz-1-1-af::after {
+  font-size: 1.1rem;
+}
+.ft-sz-1-1-bf::before::before {
+  font-size: 1.1rem;
+}
+
+.ft-sz-1-2 {
+  font-size: 1.2rem;
+}
+.ft-sz-1-2-af::after {
+  font-size: 1.2rem;
+}
+.ft-sz-1-2-bf::before::before {
+  font-size: 1.2rem;
+}
+/* end font size */
+/* end Font */
+/* Display */
+/* start display block */
+.dp-bc {
+  display: block;
+}
+.dp-bc-bf::before {
+  display: block;
+}
+.dp-bc-af::after {
+  display: block;
+}
+/* end display block */
+/* start display flex  */
+.db-fx {
+  display: flex;
+}
+.db-fx-bf::before {
+  display: flex;
+}
+.db-fx-af::after {
+  display: flex;
+}
+/* end display flex  */
 /* end framework */
 
 .container {
-  display: flex;
   /* width: 1180px; */
   /* margin: auto; */
 }
@@ -353,7 +510,6 @@ input#search {
   border-radius: 0.5rem;
   border: 0.1rem solid var(--color-one);
   width: 7.4rem;
-  font-size: 0.65rem;
 }
 
 .status {
@@ -363,7 +519,6 @@ input#search {
 
 .status i {
   position: relative;
-  font-size: 1rem;
 }
 
 .status .image-user {
@@ -459,17 +614,7 @@ main section.main-content .content {
   text-align: center;
 }
 
-.welcome .description .info span {
-  display: block;
-}
-
-.welcome .description .info div span:first-child {
-  font-size: 0.85rem;
-  font-weight: 600;
-}
-
 .welcome .description .info div span:last-child {
-  font-size: 0.75rem;
   color: var(--color-five);
 }
 
@@ -531,7 +676,6 @@ main section.main-content .content {
   align-items: center;
   flex-basis: 3.65rem;
   height: 3.65rem;
-  font-size: 0.9rem;
 }
 
 .y-target-content-piece i:before {
@@ -553,12 +697,10 @@ main section.main-content .content {
 }
 
 .y-target-content-info span {
-  display: block;
   line-height: 1.8;
 }
 
 .y-target-content-info span:first-child {
-  font-size: 0.75rem;
   color: var(--color-five);
 }
 
@@ -579,18 +721,11 @@ main section.main-content .content {
   height: 0.2rem;
 }
 
-.y-target-content-info span:last-child {
-  font-weight: 700;
-  font-size: 0.79rem;
-}
-
 .y-target-content-info span:last-child::before {
   position: absolute;
   padding: 0.01rem 0.3rem;
   border-radius: 0.3rem;
   color: white;
-  font-size: 0.59rem;
-  font-weight: 400;
   line-height: 1.6;
 }
 
@@ -661,18 +796,12 @@ main section.main-content .content {
   padding: 1rem;
 }
 
-.tasks-stats-content .tasks-stats-card i {
-  font-size: 1.1rem;
-}
-
 .tasks-stats-card .stat {
   font-size: 1.2rem;
-  font-weight: 700;
 }
 
 .tasks-stats-card span.stat-info {
   margin-top: -0.2rem;
-  font-weight: 600;
   color: var(--color-five);
 }
 /* end tickets stat */
@@ -715,15 +844,7 @@ main section.main-content .content {
 
 .news-info p {
   margin-top: -0.1rem;
-  font-weight: 600;
   color: var(--color-five);
-}
-
-.news-content-piece span.news-time {
-  background-color: var(--color-two);
-  padding: 0rem 0.5rem;
-  border-radius: 0.2rem;
-  font-size: 0.65rem;
 }
 
 /* end news */
@@ -748,10 +869,33 @@ main section.main-content .content {
 .l-tasks-content .task .task-desc p {
   margin: 0;
   color: var(--color-five);
-  font-weight: 600;
-  font-size: 0.8rem;
 }
 /* end latest tasks */
+/* start top search items  */
+.top-search-content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.top-search-content ul li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-search-content ul li:first-child {
+  padding-bottom: 0.4rem;
+}
+
+.top-search-content ul li:not(:last-child) {
+  padding-bottom: 0.8rem;
+}
+
+li.top-search-title span {
+  color: var(--color-five);
+}
+
+/* end top search items  */
 /* end page 01 : dashboard */
 /* start */
 /* end main-content  */
