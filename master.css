@@ -112,6 +112,26 @@ body {
   background-color: transparent;
 }
 
+.black-cl {
+  color: black;
+}
+.black-cl-bf::before {
+  color: black;
+}
+.black-cl-bf::after {
+  color: black;
+}
+
+.black-bg {
+  background-color: black;
+}
+.black-bg-bf::before {
+  background-color: black;
+}
+.black-bg-bf::after {
+  background-color: black;
+}
+
 .tw-cl {
   color: var(--color-twitter);
 }
@@ -1598,5 +1618,81 @@ ul.social-info-content li {
 }
 /* end backup  */
 /* end page 02 : Settings  */
+/* start page 01 : profile */
+.main-profile {
+  grid-column: 1/4;
+}
+.main-profile .user-card {
+  flex-basis: 20%;
+}
+
+.main-profile .user-info {
+  flex-basis: 80%;
+}
+
+.user-info-card {
+  position: relative;
+}
+
+.user-info-card:not(:last-child)::before {
+  content: '';
+  width: calc(100% + 1rem);
+  height: 1px;
+  bottom: -2px;
+  background-color: var(--color-two);
+  position: absolute;
+}
+
+.main-profile .user-info-card:not(:last-child) {
+  padding-bottom: 0.8rem;
+}
+
+.main-profile .user-info-card:not(:first-child) {
+  padding-top: 0.8rem;
+}
+
+.user-desc-info {
+  flex-basis: 64%;
+}
+
+.main-profile .user-info p {
+  margin: 0;
+  line-height: 2.5;
+}
+
+.user-desc-info p {
+  flex-basis: 30%;
+}
+
+.user-card-action {
+  flex-basis: 33%;
+}
+
+.latest-activities {
+  grid-column: 2/4;
+}
+
+.main-profile {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+ul.my-skills li span {
+  margin-right: 0.3rem;
+}
+
+ul.my-skills li {
+  width: calc(100% - 2rem);
+}
+
+ul.my-skills li:not(:first-child) {
+  padding-top: 0.7rem;
+}
+
+ul.my-skills li:not(:last-child) {
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid var(--color-one);
+}
+/* end page 01 : profile */
 /* end main-content  */
 /* end main */
