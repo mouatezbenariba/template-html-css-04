@@ -1672,11 +1672,6 @@ ul.social-info-content li {
   grid-column: 2/4;
 }
 
-.main-profile {
-  padding-right: 0;
-  padding-left: 0;
-}
-
 ul.my-skills li span {
   margin-right: 0.3rem;
 }
@@ -1691,6 +1686,24 @@ ul.my-skills li:not(:first-child) {
 
 ul.my-skills li:not(:last-child) {
   padding-bottom: 0.7rem;
+  border-bottom: 1px solid var(--color-one);
+}
+/* start latest activities */
+.activities-content .image {
+  width: 3rem;
+  margin-right: 1rem;
+}
+
+.activities-content img {
+  max-width: 100%;
+}
+
+.activities-content > div:not(:first-child) {
+  padding-top: 0.6rem;
+}
+
+.activities-content > div:not(:last-child) {
+  padding-bottom: 0.6rem;
   border-bottom: 1px solid var(--color-one);
 }
 /* end page 01 : profile */
