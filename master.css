@@ -677,6 +677,10 @@ body {
   justify-content: center;
 }
 
+.fx-js-end {
+  justify-content: flex-end;
+}
+
 .fx-al-ct {
   align-items: center;
 }
@@ -684,6 +688,7 @@ body {
 .fx-dir-col {
   flex-direction: column;
 }
+
 /* start remove default list style */
 .remove-lt-style {
   margin: 0;
@@ -869,6 +874,69 @@ body {
 }
 
 /* end Add custom rounded checkbox */
+/* start width classes */
+.width-10-af::after {
+  width: 10%;
+}
+.width-20-af::after {
+  width: 20%;
+}
+.width-30-af::after {
+  width: 30%;
+}
+.width-40-af::after {
+  width: 40%;
+}
+.width-50-af::after {
+  width: 50%;
+}
+.width-60-af::after {
+  width: 60%;
+}
+.width-70-af::after {
+  width: 70%;
+}
+.width-80-af::after {
+  width: 80%;
+}
+.width-90-af::after {
+  width: 90%;
+}
+.width-100-af::after {
+  width: 100%;
+}
+
+.width-10-bf::before {
+  width: 10%;
+}
+.width-20-bf::before {
+  width: 20%;
+}
+.width-30-bf::before {
+  width: 30%;
+}
+.width-40-bf::before {
+  width: 40%;
+}
+.width-50-bf::before {
+  width: 50%;
+}
+.width-60-bf::before {
+  width: 60%;
+}
+.width-70-bf::before {
+  width: 70%;
+}
+.width-80-bf::before {
+  width: 80%;
+}
+.width-90-bf::before {
+  width: 90%;
+}
+.width-100-bf::before {
+  width: 100%;
+}
+/* end width classes */
 /* end framework */
 /* ------------------------------------------------------------------------------- */
 .container {
@@ -977,7 +1045,7 @@ main section.main-content h1 {
 main section.main-content .content {
   display: grid;
   grid-template-columns: repeat(3, 23.6rem);
-  grid-auto-rows: minmax(17rem, auto);
+  grid-auto-rows: minmax(14rem, auto);
   grid-gap: 1rem;
 }
 
@@ -1707,5 +1775,49 @@ ul.my-skills li:not(:last-child) {
   border-bottom: 1px solid var(--color-one);
 }
 /* end page 01 : profile */
+/* start projects page  */
+.projects-cards {
+  display: grid;
+  grid-template-rows: 4.5rem 3rem auto auto;
+  align-items: flex-start;
+  position: relative;
+}
+
+.projects-cards::before {
+  content: '15/6/2022';
+  right: 0.5rem;
+  position: absolute;
+  top: 0.5rem;
+}
+
+.projects-fields {
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  margin-bottom: 0.7rem;
+  border-top: 1px solid var(--color-two);
+  border-bottom: 1px solid var(--color-two);
+}
+
+.projects-cards .projects-team-images img {
+  width: 2rem;
+}
+
+.projects-fields span {
+  position: relative;
+  margin-right: 0.3rem;
+}
+
+span.project-progression-bar {
+  width: 57%;
+}
+
+span.project-progression-bar::before,
+span.project-progression-bar::after {
+  content: '';
+  position: absolute;
+  height: 0.3rem;
+  border-radius: 2rem;
+}
+/* end projects page  */
 /* end main-content  */
 /* end main */
