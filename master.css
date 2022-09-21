@@ -663,6 +663,15 @@ body {
   font-size: 1.4rem;
 }
 
+.ft-sz-2 {
+  font-size: 2rem;
+}
+.ft-sz-2-af::after {
+  font-size: 2rem;
+}
+.ft-sz-2-bf::before::before {
+  font-size: 2rem;
+}
 /* end font size */
 /* end Font */
 /* Display */
@@ -2039,5 +2048,47 @@ main section.main-content .content.files-stats-content {
   opacity: 0.1;
 }
 /* end files  */
+/* start plans  */
+.plans-title span {
+  text-align: center;
+}
+
+.features li {
+  border-bottom: 1px solid var(--color-one);
+}
+
+.features li p {
+  margin-bottom: 0.4rem;
+}
+
+.features li p i {
+  padding-right: 0.3rem;
+}
+
+.plans-action {
+  margin-top: 0.5rem;
+}
+
+.current {
+  text-align: center;
+}
+
+.plans-title {
+  display: flex;
+  padding: 1.3rem;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.plans-title::before {
+  content: '';
+  width: calc(100% - 0.5rem);
+  height: calc(100% - 0.5rem);
+  left: calc(0.5rem / 2);
+  top: calc(0.5rem / 2);
+  border: 2px solid white;
+  position: absolute;
+}
+/* end plans  */
 /* end main-content  */
 /* end main */
