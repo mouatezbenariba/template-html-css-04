@@ -1626,6 +1626,12 @@ ul.social-stat-content li {
   position: relative;
   z-index: 2;
   padding-right: 0.7rem;
+  transition-duration: 0.3s;
+}
+
+ul.social-stat-content li:hover i {
+    transform: rotateZ(10deg);
+    transition-duration: 0.3s;
 }
 
 ul.social-stat-content li:not(:last-child) {
