@@ -1506,6 +1506,27 @@ ul.c-project-content::before {
   transform: translateY(0.2rem);
   left: -1.2rem;
 }
+
+.current-project::after {
+  opacity: 0;
+  animation-name: appearOnOff;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+/* start current project animation */
+@keyframes appearOnOff {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.5;
+  }
+  70% {
+    opacity: 1;
+  }
+}
+/* end current project animation */
 /* end progress projects  */
 /* start reminders */
 ul.reminders-content {
