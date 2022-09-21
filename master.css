@@ -1664,6 +1664,10 @@ ul.social-stat-content li::before {
   position: relative;
   margin-left: -0.8rem;
 }
+
+.projects-team-images img:hover {
+    z-index: 1;
+}
 /* end projects  */
 /* end page 01 : dashboard */
 /* start page 02 : Settings  */
