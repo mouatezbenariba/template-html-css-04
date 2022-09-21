@@ -1095,6 +1095,11 @@ input#search {
   transition-duration: 0.5s;
 }
 
+input#search:focus-within {
+    width: 9.4rem;
+    transition-duration: 0.5s;
+}
+
 .status {
   display: flex;
   align-items: center;
