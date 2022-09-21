@@ -1011,6 +1011,12 @@ body {
   border: 2px solid white;
 }
 
+/* start remove outline from input:focus-within */
+.remove-outline {
+  outline: none;
+}
+/* end remove outline from input:focus-within */
+
 /* end framework */
 /* ------------------------------------------------------------------------------- */
 .container {
