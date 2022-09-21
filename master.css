@@ -1092,6 +1092,7 @@ input#search {
   border-radius: 0.5rem;
   border: 0.1rem solid var(--color-one);
   width: 7.4rem;
+  transition-duration: 0.5s;
 }
 
 .status {
