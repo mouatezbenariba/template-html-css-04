@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- html meta data -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Elmouatez Billah Benariba" />
-    <meta name="description" content="Elzero Frontend Challenge Solution: HTML/CSS Template 04 Dashboard" />
+    <meta name="description" content="Elzero Frontend Challenge Solution : " />
+    <!-- FontAwesome Library -->
+    <link rel="stylesheet" href="css/all.css" />
+    <!-- main style css -->
+    <link rel="stylesheet" href="master.css" />
+    <!-- non critical css -->
+    <!-- <link
+      rel="preload"
+      href="non-critical-css.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript><link rel="stylesheet" href="non-critical-css.css" /></noscript> -->
+    <!-- favicon -->
+
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,11 +27,8 @@
       href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
-    <!-- FontAwesome Library -->
-    <link rel="stylesheet" href="css/all.css" />
-    <!-- main style css -->
-    <link rel="stylesheet" href="master.css" />
-    <title>Dashboard</title>
+    <!-- openGraph tags -->
+    <title></title>
   </head>
   <body class="ft-sz-0-7">
     <div class="container dp-fx">
@@ -26,7 +36,9 @@
         <h2 class="special-underline-1">Elzero</h2>
         <nav>
           <ul class="nav-links">
-            <li><a href="index.html" class="icon dashboard">Dashboard</a></li>
+            <li style="background-color: var(--color-one)">
+              <a href="index.html" class="icon dashboard">Dashboard</a>
+            </li>
             <li><a href="html/settings.html" class="icon settings">Settings</a></li>
             <li><a href="html/profile.html" class="icon profile">Profile</a></li>
             <li><a href="html/projects.html" class="icon projects">Projects</a></li>
@@ -86,7 +98,7 @@
                     <span class="dp-bc ft-sz-0-75">Earned</span>
                   </div>
                 </div>
-                <button class="def-btn-st ft-sz-0-7">Profile</button>
+                <button class="def-btn-st blue-bg white-cl ft-sz-0-7">Profile</button>
               </div>
             </div>
             <div class="draft">
@@ -101,7 +113,7 @@
                   id="thought"
                   placeholder="Your Thoughts"
                 ></textarea>
-                <button class="def-btn-st">Save</button>
+                <button class="def-btn-st white-cl blue-bg">Save</button>
               </div>
             </div>
             <div class="y-target">
@@ -226,8 +238,8 @@
               <div class="l-tasks-content">
                 <div class="task">
                   <div class="task-desc">
-                    <h3>Record One New Video</h3>
-                    <p class="ft-wg-600 ft-sz-0-8 grey-5-cl">
+                    <h3 class="ft-sz-0-75 margin-0">Record One New Video</h3>
+                    <p class="ft-wg-600 ft-sz-0-8 grey-5-cl margin-0">
                       Record Python Create Exe Project
                     </p>
                   </div>
@@ -235,8 +247,8 @@
                 </div>
                 <div class="task">
                   <div class="task-desc">
-                    <h3>Write Article</h3>
-                    <p class="ft-wg-600 ft-sz-0-8 grey-5-cl">
+                    <h3 class="ft-sz-0-75 margin-0">Write Article</h3>
+                    <p class="ft-wg-600 ft-sz-0-8 grey-5-cl margin-0">
                       Write Low Level vs High Level Languages
                     </p>
                   </div>
@@ -244,8 +256,8 @@
                 </div>
                 <div class="task">
                   <div class="task-desc">
-                    <h3>Finish Project</h3>
-                    <p class="ft-wg-600 ft-sz-0-8 grey-5-cl">
+                    <h3 class="ft-sz-0-75 margin-0">Finish Project</h3>
+                    <p class="ft-wg-600 ft-sz-0-8 grey-5-cl margin-0">
                       Publish Academy Programming Project
                     </p>
                   </div>
@@ -253,8 +265,10 @@
                 </div>
                 <div class="task">
                   <div class="task-desc">
-                    <h3 class="grey-5-cl txt-deco-ln-thr">Attend The Meeting</h3>
-                    <p class="ft-wg-600 ft-sz-0-8 grey-5-cl txt-deco-ln-thr">
+                    <h3 class="grey-5-cl txt-deco-ln-thr ft-sz-0-7 margin-0">
+                      Attend The Meeting
+                    </h3>
+                    <p class="ft-wg-600 ft-sz-0-8 grey-5-cl txt-deco-ln-thr margin-0">
                       Attend The Project Business Analysis Meeting
                     </p>
                   </div>
@@ -264,8 +278,10 @@
                 </div>
                 <div class="task">
                   <div class="task-desc">
-                    <h3>Finish Lesson</h3>
-                    <p class="ft-wg-600 ft-sz-0-8 grey-5-cl">Finish Teaching Flex Box</p>
+                    <h3 class="ft-sz-0-75 margin-0">Finish Lesson</h3>
+                    <p class="ft-wg-600 ft-sz-0-8 grey-5-cl margin-0">
+                      Finish Teaching Flex Box
+                    </p>
                   </div>
                   <div class="action"><i class="fa-regular fa-trash-can"></i></div>
                 </div>

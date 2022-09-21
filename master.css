@@ -1012,6 +1012,9 @@ aside nav ul.nav-links li {
   margin-top: 0.5rem;
   padding-left: 0.5rem;
   border-radius: 0.15rem;
+}
+
+aside nav ul.nav-links li:hover {
   background-color: var(--color-one);
 }
 
