@@ -976,6 +976,30 @@ body {
   width: 100%;
 }
 /* end width classes */
+.project-progress-circle-bf::before {
+  content: '';
+  position: absolute;
+  left: -1.15rem;
+  transform: translateX(-50%);
+  top: 0.15rem;
+  width: 1.3rem;
+  height: 1.3rem;
+  border: 1px solid var(--color-six);
+  border-radius: 50%;
+}
+
+.project-progress-circle-af::after {
+  content: '';
+  position: absolute;
+  left: -1.15rem;
+  top: 0.25rem;
+  transform: translateX(-50%);
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
 /* end framework */
 /* ------------------------------------------------------------------------------- */
 .container {
@@ -1468,27 +1492,6 @@ ul.c-project-content {
 
 ul.c-project-content li {
   position: relative;
-}
-
-ul.c-project-content li:before {
-  content: '';
-  position: absolute;
-  left: -1.8rem;
-  top: 0.15rem;
-  width: 1.3rem;
-  height: 1.3rem;
-  border: 1px solid var(--color-six);
-  border-radius: 50%;
-}
-
-ul.c-project-content li:after {
-  content: '';
-  position: absolute;
-  left: -1.65rem;
-  top: 0.3rem;
-  width: 1rem;
-  height: 1rem;
-  border-radius: 50%;
 }
 
 ul.c-project-content li:not(:last-child) {
