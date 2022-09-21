@@ -479,6 +479,17 @@ body {
   cursor: pointer;
 }
 /* end button */
+/* start add pointer affect */
+.pointer-effect {
+  cursor: pointer;
+}
+.pointer-effect-bf::before {
+  cursor: pointer;
+}
+.pointer-effect-af::after {
+  cursor: pointer;
+}
+/* end add pointer affect */
 /* start small box rectangle */
 .box-rec-small {
   display: flex;
