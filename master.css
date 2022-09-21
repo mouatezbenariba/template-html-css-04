@@ -1028,6 +1028,7 @@ body {
 aside {
   flex-basis: 10rem;
   height: 100vh;
+  padding: 0 0.5rem;
   box-shadow: 1px 0 5px 0px var(--color-one);
   z-index: 1;
 }
