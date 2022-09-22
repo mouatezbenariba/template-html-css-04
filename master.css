@@ -1026,9 +1026,9 @@ body {
 
 /* start sidebar */
 aside {
-  flex-basis: 10rem;
+  flex-basis: 10%;
   height: 100vh;
-  padding: 0 0.5rem;
+    padding: 0.5rem;
   box-shadow: 1px 0 5px 0px var(--color-one);
   z-index: 1;
 }
@@ -1069,7 +1069,7 @@ aside nav ul.nav-links li a {
 
 /* start main */
 main {
-  flex-basis: calc(100vw - 10rem);
+  flex-basis: 90%;
   background-color: var(--color-four);
 }
 
