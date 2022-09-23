@@ -1203,7 +1203,7 @@ main section.main-content h1 {
   .latest-activities {
   grid-column: 1/4;
 }
-.course {
+.course, .friend {
   min-width: 19rem;
 }
 }
@@ -1251,7 +1251,7 @@ main section.main-content h1 {
 .main-profile .user-card {
   border-right: 1px solid var(--color-two);
 }
-.course {
+.course, .friend{
 min-width: 17.5rem;
 }
 }
@@ -1275,7 +1275,7 @@ min-width: 17.5rem;
   .news-content .news-content-piece {
     justify-content: space-between;
   }
-  .course {
+  .course, .friend {
   min-width: 16rem;
 }
 }
@@ -1300,7 +1300,7 @@ min-width: 17.5rem;
 .user-card-action {
   flex-basis: 33%;
 }
-.course {
+.course, .friend {
   min-width: 15rem;
 }
 }
