@@ -1181,6 +1181,12 @@ main section.main-content h1 {
     grid-template-columns: 1fr;
     grid-gap: 1rem;
   }
+  .main-profile {
+    flex-direction: column;
+  }
+  .main-profile .user-card {
+    border-style: none;
+  }
 }
 
 @media screen and (width >= 768px) {
