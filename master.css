@@ -1214,6 +1214,9 @@ main section.main-content h1 {
   min-width: 18rem;
   margin-bottom: 1rem;
 }
+.hide {
+  display: none;
+}
 }
 
 @media screen and (width >= 768px) {
