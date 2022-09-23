@@ -1187,6 +1187,12 @@ main section.main-content h1 {
   .main-profile .user-card {
     border-style: none;
   }
+  .my-skills {
+    grid-column: 1/4;
+  }
+  .latest-activities {
+  grid-column: 1/4;
+}
 }
 
 @media screen and (width >= 768px) {
@@ -1226,6 +1232,9 @@ main section.main-content h1 {
   .user-card-action {
     flex-basis: 18%;
   }
+  .latest-activities {
+  grid-column: 2/4;
+}
 }
 
 @media screen and (width >= 992px) {
@@ -1988,10 +1997,6 @@ ul.social-info-content li {
 
 .user-desc-info p {
   flex-basis: 30%;
-}
-
-.latest-activities {
-  grid-column: 2/4;
 }
 
 ul.my-skills li span {
