@@ -1047,8 +1047,6 @@ body::-webkit-scrollbar-button {
 }
 body::-webkit-scrollbar {
     width: 1rem;
-    /* background-color: rebeccapurple; */
-    /* height: 1rem; */
 }
 /* end side bar styling */
 
