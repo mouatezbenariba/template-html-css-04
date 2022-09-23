@@ -1228,7 +1228,7 @@ main section.main-content h1 {
   align-items: center;
 }
 .files-stats {
-  min-width: 18rem;
+  width: -webkit-fill-available;
   margin-bottom: 1rem;
 }
 .hide {
