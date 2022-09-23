@@ -2050,6 +2050,7 @@ ul.my-skills li:not(:last-child) {
   grid-template-rows: 4.5rem 3rem auto auto;
   align-items: flex-start;
   position: relative;
+  max-height: 14rem;
 }
 
 .projects-cards::before {
