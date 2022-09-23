@@ -1223,9 +1223,6 @@ main section.main-content h1 {
   .latest-activities {
   grid-column: 1/4;
 }
-.friend {
-  min-width: 19rem;
-}
 .files-statistics {
   flex-direction: column-reverse;
   align-items: center;
@@ -1287,9 +1284,6 @@ aside nav ul.nav-links li {
 .main-profile .user-card {
   border-right: 1px solid var(--color-two);
 }
-.friend{
-min-width: 17.5rem;
-}
 }
 
 @media screen and (width >= 992px) {
@@ -1305,9 +1299,6 @@ min-width: 17.5rem;
   .news-content .news-content-piece {
     justify-content: space-between;
   }
-  .friend {
-  min-width: 16rem;
-}
 }
 
 @media screen and (width >= 1200px) {
@@ -1323,9 +1314,6 @@ min-width: 17.5rem;
 }
 .user-card-action {
   flex-basis: 33%;
-}
-.friend {
-  min-width: 15rem;
 }
 }
 /* start welcome */
@@ -2191,7 +2179,7 @@ main section.main-content .content.courses-ctn {
 /* end courses page  */
 /* start friends page  */
 main section.main-content .content.friends-ctn {
-  grid-template-columns: repeat(auto-fit, minmax(min-content, 13.6rem));
+  grid-template-columns: repeat(auto-fit, minmax(min-content, 14.6rem));
 }
 
 .friend-profile {
