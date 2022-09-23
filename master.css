@@ -1904,9 +1904,25 @@ ul.social-info-content li {
 .backup-location .backup-location-info {
   text-align: center;
   flex-basis: 32%;
-  padding: 0.3rem 0;
+}
+  
+.backup-location input:checked + div {
+  color: var(--color-six);
+}
+
+.backup-location input {
+  display: none;
+}
+
+.backup-location label div {
   border: 1px solid var(--color-two);
+  padding: 0.3rem 0;
   border-radius: 0.3rem;
+}
+
+.backup-location input:checked + div {
+  color: var(--color-six);
+  border-color: var(--color-six);
 }
 /* end backup  */
 /* end page 02 : Settings  */
