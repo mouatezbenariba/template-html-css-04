@@ -1240,6 +1240,12 @@ main section.main-content h1 {
 aside nav ul.nav-links li {
     justify-content: center;
 }
+.projects-fields {
+  flex-direction: column;
+}
+.projects-fields span {
+  margin-bottom: 0.3rem;
+}
 }
 
 @media screen and (width >= 768px) {
@@ -2083,7 +2089,7 @@ ul.my-skills li:not(:last-child) {
   grid-template-rows: 4.5rem 3rem auto auto;
   align-items: flex-start;
   position: relative;
-  max-height: 14rem;
+  max-height: 20rem;
 }
 
 .projects-cards::before {
