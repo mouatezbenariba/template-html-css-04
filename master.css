@@ -1223,7 +1223,7 @@ main section.main-content h1 {
   .latest-activities {
   grid-column: 1/4;
 }
-.course, .friend {
+.friend {
   min-width: 19rem;
 }
 .files-statistics {
@@ -1287,7 +1287,7 @@ aside nav ul.nav-links li {
 .main-profile .user-card {
   border-right: 1px solid var(--color-two);
 }
-.course, .friend{
+.friend{
 min-width: 17.5rem;
 }
 }
@@ -1305,7 +1305,7 @@ min-width: 17.5rem;
   .news-content .news-content-piece {
     justify-content: space-between;
   }
-  .course, .friend {
+  .friend {
   min-width: 16rem;
 }
 }
@@ -1324,7 +1324,7 @@ min-width: 17.5rem;
 .user-card-action {
   flex-basis: 33%;
 }
-.course, .friend {
+.friend {
   min-width: 15rem;
 }
 }
@@ -2130,7 +2130,7 @@ span.project-progression-bar::after {
 /* end projects page  */
 /* start courses page  */
 main section.main-content .content.courses-ctn {
-  grid-template-columns: repeat(auto-fit, minmax(min-content, 13.6rem));
+  grid-template-columns: repeat(auto-fit, minmax(min-content, 14.6rem));
 }
 
 .course {
