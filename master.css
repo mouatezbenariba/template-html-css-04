@@ -1074,6 +1074,7 @@ aside nav ul.nav-links {
 
 aside nav ul.nav-links li {
   display: flex;
+  justify-content: center;
   align-items: center;
   width: 100%;
   height: 1.7rem;
