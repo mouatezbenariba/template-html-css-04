@@ -1035,6 +1035,22 @@ body {
   justify-content: center;
 }
 
+/* start side bar styling */
+body::-webkit-scrollbar-thumb {
+    width: 1rem;
+    background-color: var(--color-six);
+}
+
+body::-webkit-scrollbar-button {
+    display: none;
+}
+body::-webkit-scrollbar {
+    width: 1rem;
+    /* background-color: rebeccapurple; */
+    /* height: 1rem; */
+}
+/* end side bar styling */
+
 /* start sidebar */
 aside {
   flex-basis: 10%;
