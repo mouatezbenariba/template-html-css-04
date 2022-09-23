@@ -1203,6 +1203,9 @@ main section.main-content h1 {
   .latest-activities {
   grid-column: 1/4;
 }
+.course .image {
+  min-width: 19rem;
+}
 }
 
 @media screen and (width >= 768px) {
@@ -1248,6 +1251,9 @@ main section.main-content h1 {
 .main-profile .user-card {
   border-right: 1px solid var(--color-two);
 }
+.course .image {
+min-width: 17.5rem;
+}
 }
 
 @media screen and (width >= 992px) {
@@ -1269,6 +1275,9 @@ main section.main-content h1 {
   .news-content .news-content-piece {
     justify-content: space-between;
   }
+  .course .image {
+  min-width: 16rem;
+}
 }
 
 @media screen and (width >= 1200px) {
@@ -1290,6 +1299,9 @@ main section.main-content h1 {
 }
 .user-card-action {
   flex-basis: 33%;
+}
+.course .image {
+  min-width: 15rem;
 }
 }
 /* start welcome */
@@ -2102,7 +2114,6 @@ main section.main-content .content.courses-ctn {
 .course .image {
   position: relative;
   margin: -1rem;
-  width: 13.6rem;
 }
 
 .course img {
