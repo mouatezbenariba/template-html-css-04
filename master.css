@@ -1074,7 +1074,6 @@ aside nav ul.nav-links {
 
 aside nav ul.nav-links li {
   display: flex;
-  justify-content: center;
   align-items: center;
   width: 100%;
   height: 1.7rem;
@@ -1242,6 +1241,9 @@ main section.main-content h1 {
 .hide {
   display: none;
 }
+aside nav ul.nav-links li {
+    justify-content: center;
+}
 }
 
 @media screen and (width >= 768px) {
@@ -1321,7 +1323,7 @@ min-width: 17.5rem;
     width: 1180px;
   }
   main section.main-content .content {
-    grid-template-columns: repeat(3, 23.6rem);
+    grid-template-columns: repeat(3, 20.7rem);
     grid-auto-rows: minmax(14rem, auto);
   }
   .content .my-projects {
