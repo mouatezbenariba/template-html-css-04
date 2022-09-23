@@ -29,7 +29,8 @@ body {
 .vip::before {
   content: 'VIP';
   position: absolute;
-  bottom: 2.5rem;
+  top: 50%;
+  transform: translateY(-50%);
   right: 1rem;
   font-size: 2.8rem;
   opacity: 0.1;
