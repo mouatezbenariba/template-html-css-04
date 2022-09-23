@@ -1942,6 +1942,7 @@ ul.social-info-content li {
 
 .user-info-card {
   position: relative;
+  padding-left: 1rem;
 }
 
 .user-info-card:not(:last-child)::before {
@@ -1949,6 +1950,7 @@ ul.social-info-content li {
   width: calc(100% + 1rem);
   height: 1px;
   bottom: -2px;
+  left: 0;
   background-color: var(--color-two);
   position: absolute;
 }
