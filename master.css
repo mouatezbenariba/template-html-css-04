@@ -1214,6 +1214,12 @@ main section.main-content h1 {
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 1rem;
   }
+  .user-desc-info {
+    flex-basis: 100%;
+  }
+  .user-card-action {
+    flex-basis: 18%;
+  }
 }
 
 @media screen and (width >= 992px) {
@@ -1251,6 +1257,12 @@ main section.main-content h1 {
   .welcome .description button {
     left: 18.8rem;
   }
+  .user-desc-info {
+  flex-basis: 64%;
+}
+.user-card-action {
+  flex-basis: 33%;
+}
 }
 /* start welcome */
 .welcome {
@@ -1963,10 +1975,6 @@ ul.social-info-content li {
   padding-top: 0.8rem;
 }
 
-.user-desc-info {
-  flex-basis: 64%;
-}
-
 .main-profile .user-info p {
   margin: 0;
   line-height: 2.5;
@@ -1974,10 +1982,6 @@ ul.social-info-content li {
 
 .user-desc-info p {
   flex-basis: 30%;
-}
-
-.user-card-action {
-  flex-basis: 33%;
 }
 
 .latest-activities {
