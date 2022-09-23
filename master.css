@@ -1245,6 +1245,9 @@ main section.main-content h1 {
   .latest-activities {
   grid-column: 2/4;
 }
+.main-profile .user-card {
+  border-right: 1px solid var(--color-two);
+}
 }
 
 @media screen and (width >= 992px) {
@@ -1969,7 +1972,6 @@ ul.social-info-content li {
 }
 .main-profile .user-card {
   flex-basis: 20%;
-  border-right: 1px solid var(--color-two);
   height: 60%;
 }
 
