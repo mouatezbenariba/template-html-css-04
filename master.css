@@ -1932,6 +1932,8 @@ ul.social-info-content li {
 }
 .main-profile .user-card {
   flex-basis: 20%;
+  border-right: 1px solid var(--color-two);
+  height: 60%;
 }
 
 .main-profile .user-info {
