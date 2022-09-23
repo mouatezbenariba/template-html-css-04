@@ -2254,8 +2254,6 @@ main section.main-content .content.files-ctn {
 
 main section.main-content .content.files-stats-content {
   display: grid;
-  /* grid-auto-columns: 1rem; */
-  /* grid-auto-rows: 1rem; */
   grid-template-columns: 1fr;
   grid-auto-rows: min-content;
 }
