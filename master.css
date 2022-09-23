@@ -1264,7 +1264,6 @@ aside nav ul.nav-links li {
   }
   .welcome .description button {
     top: 3.9rem;
-    left: 31rem;
   }
   .welcome .description .info {
     top: 50%;
@@ -1307,9 +1306,6 @@ min-width: 17.5rem;
     grid-auto-rows: minmax(min-content, 18rem);
     grid-gap: 1rem;
   }
-  .welcome .description button {
-    left: 19.8rem;
-  }
   .news-content .news-content-piece {
     justify-content: space-between;
   }
@@ -1328,9 +1324,6 @@ min-width: 17.5rem;
   }
   .content .my-projects {
     grid-column: 1/4;
-  }
-  .welcome .description button {
-    left: 18.8rem;
   }
   .user-desc-info {
   flex-basis: 64%;
@@ -1398,6 +1391,7 @@ min-width: 17.5rem;
 
 .welcome .description button {
   position: relative;
+  right: 0.9rem;
 }
 /* end welcome */
 /* start draft */
