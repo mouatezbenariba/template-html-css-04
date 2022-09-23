@@ -1206,6 +1206,14 @@ main section.main-content h1 {
 .course, .friend {
   min-width: 19rem;
 }
+.files-statistics {
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.files-stats {
+  min-width: 18rem;
+  margin-bottom: 1rem;
+}
 }
 
 @media screen and (width >= 768px) {
