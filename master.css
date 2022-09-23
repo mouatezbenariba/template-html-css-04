@@ -25,6 +25,16 @@ body {
 }
 
 /* start framework */
+/* start add VIP */
+.vip::before {
+  content: 'VIP';
+  position: absolute;
+  bottom: 2.5rem;
+  right: 1rem;
+  font-size: 2.8rem;
+  opacity: 0.1;
+}
+/* end add VIP */
 /*start FontAwesome Icons as Pseudo-Elements */
 .icon::before {
   display: inline-block;
