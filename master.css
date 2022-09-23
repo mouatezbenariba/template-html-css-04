@@ -1031,6 +1031,7 @@ body {
 /* end framework */
 /* ------------------------------------------------------------------------------- */
 .container {
+  width: auto;
   margin: auto;
   justify-content: center;
 }
@@ -1053,7 +1054,7 @@ body::-webkit-scrollbar {
 
 /* start sidebar */
 aside {
-  flex-basis: 10%;
+  flex-basis: 7rem;
   height: 100vh;
   padding: 0.5rem;
   box-shadow: 1px 0 5px 0px var(--color-one);
@@ -1168,9 +1169,6 @@ main section.main-content h1 {
 }
 
 @media screen and (width < 768px) {
-  .container {
-    width: 480px;
-  }
   .aside {
     width: 0;
   }
@@ -1247,9 +1245,6 @@ aside nav ul.nav-links li {
 }
 
 @media screen and (width >= 768px) {
-  .container {
-    width: 750px;
-  }
   main section.main-content .content {
     display: grid;
     grid-gap: 1rem;
@@ -1294,9 +1289,6 @@ min-width: 17.5rem;
 }
 
 @media screen and (width >= 992px) {
-  .container {
-    width: 980px;
-  }
   .content .my-projects {
     grid-column: 1/3;
   }
@@ -1315,9 +1307,6 @@ min-width: 17.5rem;
 }
 
 @media screen and (width >= 1200px) {
-  .container {
-    width: 1180px;
-  }
   main section.main-content .content {
     grid-template-columns: repeat(3, 20.7rem);
     grid-auto-rows: minmax(14rem, auto);
