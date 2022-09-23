@@ -796,7 +796,8 @@ body {
   position: absolute;
   content: '\f057';
   left: 2px;
-  top: 3px;
+  top: 50%;
+  transform: translateY(-100%);
   bottom: 4px;
   font-size: 1.22rem;
   color: white;
