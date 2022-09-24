@@ -1222,7 +1222,7 @@ main section.main-content h1 {
 
 .welcome .description button {
   position: relative;
-  right: 0.9rem;
+  right: 0;
 }
 /* end welcome */
 /* start draft */
@@ -2222,7 +2222,7 @@ main section.main-content .content.files-stats-content {
     grid-gap: 1rem;
   }
   .welcome {
-    min-height: 23.8rem;
+    min-height: 21rem;
   }
   .draft {
     min-height: 18rem;
