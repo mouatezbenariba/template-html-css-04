@@ -17,7 +17,8 @@
 
 ### Links
 
-- Live Site URL: [Mouatez | Template](https://mouatezbenariba.github.io/template-html-css-04/)
+- Live Site URL: [Elzero Dashboard](https://mouatezbenariba.github.io/template-html-css-04/)
+- [CSS Framework](https://github.com/mouatezbenariba/template-html-css-04/blob/main/css/framework-elements.css)
 
 ### Built with
 
