@@ -1,85 +1,5 @@
 
 /* start framework */
-
-
-
-/* start add VIP */
-.vip::before {
-  content: 'VIP';
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 1rem;
-  font-size: 2.8rem;
-  opacity: 0.1;
-}
-/* end add VIP */
-/*start FontAwesome Icons as Pseudo-Elements */
-.icon::before {
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-
-.dashboard::before {
-  content: '\f080';
-}
-
-.settings::before {
-  content: '\f013';
-}
-
-.profile::before {
-  content: '\f007';
-}
-
-.projects::before {
-  content: '\f542';
-}
-
-.courses::before {
-  content: '\f19d';
-}
-
-.friends::before {
-  content: '\f2bd';
-}
-
-.files::before {
-  content: '\f15b';
-}
-
-.plans::before {
-  content: '\f09d';
-}
-
-.magnifying-glass::before {
-  content: '\f002';
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-  position: absolute;
-  top: 45%;
-  left: 0.5rem;
-  transform: translateY(-50%);
-  color: #9b9b9b;
-}
-
-.dashboard::before,
-.settings::before,
-.profile::before,
-.projects::before,
-.courses::before,
-.friends::before,
-.files::before,
-.plans::before {
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-  position: relative;
-  left: -0.5rem;
-}
-/*end FontAwesome Icons as Pseudo-Elements */
 /* start colors / background colors / border-colors */
 .transp-cl {
   color: transparent;
@@ -321,16 +241,6 @@
   background-color: var(--color-six);
 }
 
-/* .blue-br {
-    border-color: var(--color-six);
-  }
-  .blue-br-bf::before {
-    border-color: var(--color-six);
-  }
-  .blue-br-af::after {
-    border-color: var(--color-six);
-  } */
-
 .orange-cl {
   color: var(--color-seven);
 }
@@ -350,16 +260,6 @@
 .orange-bg-af::after {
   background-color: var(--color-seven);
 }
-
-/* .orange-br {
-    border-color: var(--color-seven);
-  }
-  .orange-br-bf::before {
-    border-color: var(--color-seven);
-  }
-  .orange-br-af::after {
-    border-color: var(--color-seven);
-  } */
 
 .green-cl {
   color: var(--color-eight);
@@ -381,135 +281,6 @@
   background-color: var(--color-eight);
 }
 /* end colors */
-/* start special underline 01*/
-.special-underline-1::before {
-  content: '';
-  width: 0.55rem;
-  height: 0.55rem;
-  position: absolute;
-  top: 2rem;
-  left: 50%;
-  transform: translateX(-50%);
-  border-radius: 50%;
-  background-color: black;
-  outline: 0.2rem solid white;
-  z-index: 1;
-}
-
-.special-underline-1::after {
-  content: '';
-  width: 4rem;
-  height: 0.1rem;
-  position: absolute;
-  top: 2.26rem;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: black;
-}
-/* end special underline */
-/* start special underline 02 */
-.special-underline-2::before {
-  content: '';
-  position: absolute;
-  width: 25%;
-  height: 0.1rem;
-  background-color: black;
-  bottom: 0rem;
-  z-index: 2;
-}
-
-.special-underline-2::after {
-  content: '';
-  position: absolute;
-  width: 75%;
-  height: 0.1rem;
-  background-color: white;
-  bottom: 0rem;
-  left: 0;
-  z-index: 1;
-}
-/* end special underline 02 */
-/* start notification true */
-.notif-true::after {
-  content: '';
-  width: 0.4rem;
-  height: 0.4rem;
-  background-color: var(--color-three);
-  position: absolute;
-  border-radius: 50%;
-  top: -0.3rem;
-  right: -0.1rem;
-}
-/* end notification true */
-/* start main content card titles */
-.title {
-  position: relative;
-  z-index: 1;
-}
-
-.title h2 {
-  margin: 0;
-  margin-top: -0.5rem;
-  font-size: 1.2rem;
-}
-
-.title p {
-  margin-top: -0.3rem;
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--color-five);
-}
-/* end main content card titles */
-/* start default button style */
-.def-btn-st {
-  border-style: none;
-  border-radius: 0.3rem;
-  padding: 0.3rem 0.5rem;
-  cursor: pointer;
-}
-/* end button */
-/* start add pointer affect */
-.pointer-effect {
-  cursor: pointer;
-}
-.pointer-effect-bf::before {
-  cursor: pointer;
-}
-.pointer-effect-af::after {
-  cursor: pointer;
-}
-/* end add pointer affect */
-/* start small box rectangle */
-.box-rec-small {
-  display: flex;
-  align-items: center;
-  padding: 0rem 0.5rem;
-  border-radius: 0.2rem;
-  font-size: 0.65rem;
-  width: fit-content;
-  height: 1.3rem;
-}
-
-.box-rec-small-bf::before {
-  display: flex;
-  align-items: center;
-  padding: 0rem 0.5rem;
-  border-radius: 0.2rem;
-  font-size: 0.65rem;
-  width: fit-content;
-  height: 1.3rem;
-}
-
-.box-rec-small-af::after {
-  display: flex;
-  align-items: center;
-  padding: 0rem 0.5rem;
-  border-radius: 0.2rem;
-  font-size: 0.65rem;
-  width: fit-content;
-  height: 1.3rem;
-}
-/* end small box rectangle */
 /* start Font */
 /* start Font Weight */
 .ft-wg-400 {
@@ -728,6 +499,73 @@
   flex-direction: column;
 }
 
+/* start width classes */
+.width-10-af::after {
+  width: 10%;
+}
+.width-20-af::after {
+  width: 20%;
+}
+.width-30-af::after {
+  width: 30%;
+}
+.width-40-af::after {
+  width: 40%;
+}
+.width-50-af::after {
+  width: 50%;
+}
+.width-60-af::after {
+  width: 60%;
+}
+.width-70-af::after {
+  width: 70%;
+}
+.width-80-af::after {
+  width: 80%;
+}
+.width-90-af::after {
+  width: 90%;
+}
+.width-100-af::after {
+  width: 100%;
+}
+
+.width-10-bf::before {
+  width: 10%;
+}
+.width-20-bf::before {
+  width: 20%;
+}
+.width-30-bf::before {
+  width: 30%;
+}
+.width-40-bf::before {
+  width: 40%;
+}
+.width-50-bf::before {
+  width: 50%;
+}
+.width-60-bf::before {
+  width: 60%;
+}
+.width-70-bf::before {
+  width: 70%;
+}
+.width-80-bf::before {
+  width: 80%;
+}
+.width-90-bf::before {
+  width: 90%;
+}
+.width-100-bf::before {
+  width: 100%;
+}
+/* end width classes */
+/* start remove outline from input:focus-within */
+.remove-outline {
+  outline: none;
+}
 /* start remove default list style */
 .remove-lt-style {
   margin: 0;
@@ -746,6 +584,8 @@
   position: relative;
 }
 /* end position */
+
+
 /* start text decoration */
 .txt-deco-ln-thr {
   text-decoration: line-through;
@@ -913,69 +753,215 @@
 }
 
 /* end Add custom rounded checkbox */
-/* start width classes */
-.width-10-af::after {
-  width: 10%;
-}
-.width-20-af::after {
-  width: 20%;
-}
-.width-30-af::after {
-  width: 30%;
-}
-.width-40-af::after {
-  width: 40%;
-}
-.width-50-af::after {
-  width: 50%;
-}
-.width-60-af::after {
-  width: 60%;
-}
-.width-70-af::after {
-  width: 70%;
-}
-.width-80-af::after {
-  width: 80%;
-}
-.width-90-af::after {
-  width: 90%;
-}
-.width-100-af::after {
-  width: 100%;
+/* start special underline 01*/
+.special-underline-1::before {
+  content: '';
+  width: 0.55rem;
+  height: 0.55rem;
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background-color: black;
+  outline: 0.2rem solid white;
+  z-index: 1;
 }
 
-.width-10-bf::before {
-  width: 10%;
+.special-underline-1::after {
+  content: '';
+  width: 4rem;
+  height: 0.1rem;
+  position: absolute;
+  top: 2.26rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: black;
 }
-.width-20-bf::before {
-  width: 20%;
+/* end special underline */
+/* start special underline 02 */
+.special-underline-2::before {
+  content: '';
+  position: absolute;
+  width: 25%;
+  height: 0.1rem;
+  background-color: black;
+  bottom: 0rem;
+  z-index: 2;
 }
-.width-30-bf::before {
-  width: 30%;
+
+.special-underline-2::after {
+  content: '';
+  position: absolute;
+  width: 75%;
+  height: 0.1rem;
+  background-color: white;
+  bottom: 0rem;
+  left: 0;
+  z-index: 1;
 }
-.width-40-bf::before {
-  width: 40%;
+/* end special underline 02 */
+/* start add VIP */
+.vip::before {
+  content: 'VIP';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 1rem;
+  font-size: 2.8rem;
+  opacity: 0.1;
 }
-.width-50-bf::before {
-  width: 50%;
+/* end add VIP */
+/*start FontAwesome Icons as Pseudo-Elements */
+.icon::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
 }
-.width-60-bf::before {
-  width: 60%;
+
+.dashboard::before {
+  content: '\f080';
 }
-.width-70-bf::before {
-  width: 70%;
+
+.settings::before {
+  content: '\f013';
 }
-.width-80-bf::before {
-  width: 80%;
+
+.profile::before {
+  content: '\f007';
 }
-.width-90-bf::before {
-  width: 90%;
+
+.projects::before {
+  content: '\f542';
 }
-.width-100-bf::before {
-  width: 100%;
+
+.courses::before {
+  content: '\f19d';
 }
-/* end width classes */
+
+.friends::before {
+  content: '\f2bd';
+}
+
+.files::before {
+  content: '\f15b';
+}
+
+.plans::before {
+  content: '\f09d';
+}
+
+.magnifying-glass::before {
+  content: '\f002';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  position: absolute;
+  top: 45%;
+  left: 0.5rem;
+  transform: translateY(-50%);
+  color: #9b9b9b;
+}
+
+.dashboard::before,
+.settings::before,
+.profile::before,
+.projects::before,
+.courses::before,
+.friends::before,
+.files::before,
+.plans::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  position: relative;
+  left: -0.5rem;
+}
+/*end FontAwesome Icons as Pseudo-Elements */
+
+/* start notification true */
+.notif-true::after {
+  content: '';
+  width: 0.4rem;
+  height: 0.4rem;
+  background-color: var(--color-three);
+  position: absolute;
+  border-radius: 50%;
+  top: -0.3rem;
+  right: -0.1rem;
+}
+/* end notification true */
+/* start main content card titles */
+.title {
+  position: relative;
+  z-index: 1;
+}
+
+.title h2 {
+  margin: 0;
+  margin-top: -0.5rem;
+  font-size: 1.2rem;
+}
+
+.title p {
+  margin-top: -0.3rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-five);
+}
+/* end main content card titles */
+/* start default button style */
+.def-btn-st {
+  border-style: none;
+  border-radius: 0.3rem;
+  padding: 0.3rem 0.5rem;
+  cursor: pointer;
+}
+/* end button */
+/* start add pointer affect */
+.pointer-effect {
+  cursor: pointer;
+}
+.pointer-effect-bf::before {
+  cursor: pointer;
+}
+.pointer-effect-af::after {
+  cursor: pointer;
+}
+/* end add pointer affect */
+/* start small box rectangle */
+.box-rec-small {
+  display: flex;
+  align-items: center;
+  padding: 0rem 0.5rem;
+  border-radius: 0.2rem;
+  font-size: 0.65rem;
+  width: fit-content;
+  height: 1.3rem;
+}
+
+.box-rec-small-bf::before {
+  display: flex;
+  align-items: center;
+  padding: 0rem 0.5rem;
+  border-radius: 0.2rem;
+  font-size: 0.65rem;
+  width: fit-content;
+  height: 1.3rem;
+}
+
+.box-rec-small-af::after {
+  display: flex;
+  align-items: center;
+  padding: 0rem 0.5rem;
+  border-radius: 0.2rem;
+  font-size: 0.65rem;
+  width: fit-content;
+  height: 1.3rem;
+}
+/* end small box rectangle */
+
+
 .project-progress-circle-bf::before {
   content: '';
   position: absolute;
@@ -999,11 +985,5 @@
   border-radius: 50%;
   border: 2px solid white;
 }
-
-/* start remove outline from input:focus-within */
-.remove-outline {
-  outline: none;
-}
 /* end remove outline from input:focus-within */
-
 /* end framework */
