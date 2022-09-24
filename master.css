@@ -1052,7 +1052,6 @@ body::-webkit-scrollbar {
 
 /* start sidebar */
 aside {
-  flex-basis: 8rem;
   height: unset;
   padding: 0.5rem;
   box-shadow: 1px 0 5px 0px var(--color-one);
@@ -1246,6 +1245,9 @@ aside nav ul.nav-links li {
 }
 
 @media screen and (width >= 768px) {
+  .aside {
+  flex-basis: 8rem;
+  }
   main section.main-content .content {
     display: grid;
     grid-gap: 1rem;
