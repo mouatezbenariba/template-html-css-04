@@ -6,7 +6,7 @@
 - Convert the provided [Dashboard Design](https://elzero.org/html-css-practice-template-four/) into a website using only HTML and CSS and try to make a simple CSS Framework.
 
 ### Screenshots
-![Elzero Dashboard | Dashboard](https://github.com/mouatezbenariba/template-html-css-04/blob/main/images/mouatezbenariba.github.io_template-html-css-04_index.html(HighRes%20Screenshot).png)
+![Elzero Dashboard | Dashboard](https://github.com/mouatezbenariba/template-html-css-04/blob/main/images/mouatezbenariba.github.io_template-html-css-04_(HighRes%20Screenshot).png)
 ![Elzero Dashboard | Settings](https://github.com/mouatezbenariba/template-html-css-04/blob/main/images/mouatezbenariba.github.io_template-html-css-04_html_settings.html(HighRes%20Screenshot).png)
 ![Elzero Dashboard | Profile](https://github.com/mouatezbenariba/template-html-css-04/blob/main/images/mouatezbenariba.github.io_template-html-css-04_html_profile.html(HighRes%20Screenshot).png)
 ![Elzero Dashboard | Projects](https://github.com/mouatezbenariba/template-html-css-04/blob/main/images/mouatezbenariba.github.io_template-html-css-04_html_projects.html(HighRes%20Screenshot).png)
