@@ -2199,7 +2199,7 @@ main section.main-content .content.files-stats-content {
 
 /* start media queries */
 @media screen and (width < 768px) {
-  .aside {
+  aside {
     flex-basis: 3rem;
   }
   aside > h2::before,
@@ -2278,7 +2278,7 @@ aside nav ul.nav-links li {
 }
 
 @media screen and (width >= 768px) {
-  .aside {
+  aside {
   flex-basis: 10%;
   }
   main section.main-content .content {
