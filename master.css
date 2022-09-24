@@ -1053,7 +1053,7 @@ body::-webkit-scrollbar {
 /* start sidebar */
 aside {
   flex-basis: 8rem;
-  height: 100vh;
+  height: unset;
   padding: 0.5rem;
   box-shadow: 1px 0 5px 0px var(--color-one);
   z-index: 1;
