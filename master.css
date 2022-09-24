@@ -1246,7 +1246,7 @@ aside nav ul.nav-links li {
 
 @media screen and (width >= 768px) {
   .aside {
-  flex-basis: 8rem;
+  flex-basis: 10%;
   }
   main section.main-content .content {
     display: grid;
