@@ -1168,7 +1168,7 @@ main section.main-content h1 {
 
 @media screen and (width < 768px) {
   .aside {
-    width: 0;
+    flex-basis: 3rem;
   }
   aside > h2::before,
   aside > h2::after {
