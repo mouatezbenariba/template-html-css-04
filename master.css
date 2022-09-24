@@ -216,7 +216,7 @@ main section.main-content h1 {
 }
 
 .welcome .description button {
-  position: relative;
+  position: absolute;
   right: 0;
 }
 /* end welcome */
@@ -1229,7 +1229,6 @@ main section.main-content .content.files-stats-content {
   }
   .welcome .description button {
     top: 9.6rem;
-    left: 14.2rem;
   }
   .news-content .news-content-piece {
     justify-content: space-between;
