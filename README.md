@@ -3,11 +3,17 @@
 ## Overview
 
 ### The challenge
-
 - Convert the provided [Dashboard Design](https://elzero.org/html-css-practice-template-four/) into a website using only HTML and CSS and try to make a simple CSS Framework.
 
-### Screenshot
-![Elzero Dashboard | Dashboard]()
+### Screenshots
+![Elzero Dashboard | Dashboard](https://github.com/mouatezbenariba/template-html-css-04/blob/main/images/mouatezbenariba.github.io_template-html-css-04_index.html(HighRes%20Screenshot).png)
+![Elzero Dashboard | Settings](https://github.com/mouatezbenariba/template-html-css-04/blob/main/images/mouatezbenariba.github.io_template-html-css-04_html_settings.html(HighRes%20Screenshot).png)
+![Elzero Dashboard | Profile](https://github.com/mouatezbenariba/template-html-css-04/blob/main/images/mouatezbenariba.github.io_template-html-css-04_html_profile.html(HighRes%20Screenshot).png)
+![Elzero Dashboard | Projects](https://github.com/mouatezbenariba/template-html-css-04/blob/main/images/mouatezbenariba.github.io_template-html-css-04_html_projects.html(HighRes%20Screenshot).png)
+![Elzero Dashboard | Courses](https://github.com/mouatezbenariba/template-html-css-04/blob/main/images/mouatezbenariba.github.io_template-html-css-04_html_courses.html(HighRes%20Screenshot).png)
+![Elzero Dashboard | Friends](https://github.com/mouatezbenariba/template-html-css-04/blob/main/images/mouatezbenariba.github.io_template-html-css-04_html_friends.html(HighRes%20Screenshot)%20(1).png)
+![Elzero Dashboard | Files](https://github.com/mouatezbenariba/template-html-css-04/blob/main/images/mouatezbenariba.github.io_template-html-css-04_html_files.html(HighRes%20Screenshot).png)
+![Elzero Dashboard | Plans](https://github.com/mouatezbenariba/template-html-css-04/blob/main/images/mouatezbenariba.github.io_template-html-css-04_html_plans.html(HighRes%20Screenshot).png)
 
 ### Links
 
