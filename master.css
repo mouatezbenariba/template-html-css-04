@@ -721,6 +721,15 @@ ul.social-stat-content li::before {
   z-index: 1;
 }
 
+.my-projects::-webkit-scrollbar {
+    width: 1rem;
+}
+
+.my-projects::-webkit-scrollbar-thumb {
+    /* height: 1rem; */
+    background-color: var(--color-six);
+    width: 1rem;
+}
 /* end projects  */
 /* end page 01 : dashboard */
 /* start page 02 : Settings  */
