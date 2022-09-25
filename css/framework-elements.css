@@ -121,6 +121,10 @@
   background-color: var(--color-youtube);
 }
 
+.yt-cl-ac {
+  color: #bc2f2f;
+}
+
 .white-cl {
   color: white;
 }
