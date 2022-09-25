@@ -937,7 +937,8 @@
   border-radius: 0.2rem;
   font-size: 0.65rem;
   width: fit-content;
-  height: 1.3rem;
+  height: auto;
+  text-align: center;
 }
 
 .box-rec-small-bf::before {
@@ -947,7 +948,8 @@
   border-radius: 0.2rem;
   font-size: 0.65rem;
   width: fit-content;
-  height: 1.3rem;
+  height: auto;
+  text-align: center;
 }
 
 .box-rec-small-af::after {
@@ -957,7 +959,8 @@
   border-radius: 0.2rem;
   font-size: 0.65rem;
   width: fit-content;
-  height: 1.3rem;
+  height: auto;
+  text-align: center;
 }
 /* end small box rectangle */
 
