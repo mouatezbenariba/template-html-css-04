@@ -241,6 +241,7 @@ main section.main-content h1 {
 
 .draft .thoughts textarea {
   resize: none;
+  height: 6.5rem;
 }
 
 .draft .thoughts button {
