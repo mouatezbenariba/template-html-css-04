@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'CairoRegular';
+  src: url(fonts/Cairo-Regular.ttf);
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'CairoSemiBold';
+  src: url(fonts/Cairo-SemiBold.ttf);
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'CairoBold';
+  src: url(fonts/Cairo-Bold.ttf);
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'CairoLight';
+  src: url(fonts/Cairo-Light.ttf);
+  font-display: swap
+}
