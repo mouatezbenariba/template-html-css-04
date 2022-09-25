@@ -288,33 +288,33 @@
 /* start Font */
 /* start Font Weight */
 .ft-wg-400 {
-  font-weight: 400;
+  font-family: 'CairoRegular', sans-serif;
 }
 .ft-wg-400-bf::before {
-  font-weight: 400;
+  font-family: 'CairoRegular', sans-serif;
 }
 .ft-wg-400-af::after {
-  font-weight: 400;
-}
-
-.ft-wg-700 {
-  font-weight: 700;
-}
-.ft-wg-700-bf::before {
-  font-weight: 700;
-}
-.ft-wg-700-af::after {
-  font-weight: 700;
+  font-family: 'CairoRegular', sans-serif;
 }
 
 .ft-wg-600 {
-  font-weight: 600;
+  font-family: 'CairoSemiBold', sans-serif;
 }
 .ft-wg-600-bf::before {
-  font-weight: 600;
+  font-family: 'CairoSemiBold', sans-serif;
 }
 .ft-wg-600-af::after {
-  font-weight: 600;
+  font-family: 'CairoSemiBold', sans-serif;
+}
+
+.ft-wg-700 {
+  font-family: 'CairoBold', sans-serif;
+}
+.ft-wg-700-bf::before {
+  font-family: 'CairoBold', sans-serif;
+}
+.ft-wg-700-af::after {
+  font-family: 'CairoBold', sans-serif;
 }
 /* end font weight */
 /* start font size */
