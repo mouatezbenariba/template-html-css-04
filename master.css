@@ -1240,8 +1240,12 @@ main section.main-content .content.files-stats-content {
     top: 9.6rem;
   }
   .news-content .news-content-piece {
-    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
   }
+  .news-content .news-content-piece:not(:first-child) {
+    margin-top: 0.5rem;
+}
   .tasks-stats .tasks-stats-content {
     display: grid;
     grid-template-columns: 1fr;
