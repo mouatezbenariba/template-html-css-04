@@ -15,9 +15,3 @@
   src: url(fonts/Cairo-Bold.ttf);
   font-display: swap
 }
-
-@font-face {
-  font-family: 'CairoLight';
-  src: url(fonts/Cairo-Light.ttf);
-  font-display: swap
-}
