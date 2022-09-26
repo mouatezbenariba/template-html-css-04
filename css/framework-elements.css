@@ -993,4 +993,7 @@
   border: 2px solid white;
 }
 /* end remove outline from input:focus-within */
+.v-hid {
+  visibility: hidden;
+}
 /* end framework */
