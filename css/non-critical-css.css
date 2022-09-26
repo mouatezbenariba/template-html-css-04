@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'CairoRegular';
   src: url(../fonts/Cairo-Regular.ttf);
-  font-display: optional;
+  font-display: swap;
 }
 
 @font-face {
