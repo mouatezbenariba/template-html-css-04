@@ -229,7 +229,7 @@ main section.main-content h1 {
 
 .draft .thoughts {
   display: grid;
-  grid-template-rows: 1fr 7rem;
+  grid-template-rows: 1fr 6rem;
   row-gap: 1rem;
 }
 
