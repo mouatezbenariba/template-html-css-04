@@ -1,17 +1,17 @@
 @font-face {
   font-family: 'CairoRegular';
-  src: url(../fonts/Cairo-Regular.ttf);
+  src: url(../fonts/Cairo-Regular.woff2);
   font-display: swap;
 }
 
 @font-face {
   font-family: 'CairoSemiBold';
-  src: url(../fonts/Cairo-SemiBold.ttf);
+  src: url(../fonts/Cairo-SemiBold.woff2);
   font-display: swap;
 }
 
 @font-face {
   font-family: 'CairoBold';
-  src: url(../fonts/Cairo-Bold.ttf);
+  src: url(../fonts/Cairo-Bold.woff2);
   font-display: swap;
 }
