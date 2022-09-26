@@ -994,6 +994,6 @@
 }
 /* end remove outline from input:focus-within */
 .v-hid {
-  visibility: hidden;
+  display: none;
 }
 /* end framework */
