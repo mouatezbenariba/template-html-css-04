@@ -1206,6 +1206,9 @@ main section.main-content .content.files-stats-content {
 
 /* start media queries */
 @media screen and (width < 768px) {
+  .container {
+    min-width: 200px;
+  }
   aside {
     flex-basis: 4rem;
   }
@@ -1288,6 +1291,9 @@ aside nav ul.nav-links li {
 }
 
 @media screen and (width >= 768px) {
+  .container {
+    min-width: 768px;
+  }
   aside {
   flex-basis: 10%;
   }
@@ -1332,6 +1338,9 @@ aside nav ul.nav-links li {
 }
 
 @media screen and (width >= 992px) {
+  .container {
+    min-width: 992px;
+  }
   .content .my-projects {
     grid-column: 1/3;
   }
@@ -1347,6 +1356,9 @@ aside nav ul.nav-links li {
 }
 
 @media screen and (width >= 1200px) {
+  .container {
+    min-width: 1200px;
+  }
   main section.main-content .content {
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(14rem, auto);
