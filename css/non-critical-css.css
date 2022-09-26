@@ -7,11 +7,11 @@
 @font-face {
   font-family: 'CairoSemiBold';
   src: url(../fonts/Cairo-SemiBold.ttf);
-  font-display: optional;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'CairoBold';
   src: url(../fonts/Cairo-Bold.ttf);
-  font-display: optional;
+  font-display: swap;
 }
