@@ -11,8 +11,15 @@
     <!-- main style css -->
     <link rel="stylesheet" href="../master.css" />
     <!-- framework & Elements css file -->
-    <link rel="stylesheet" href="../css/framework-elements.css">
+    <!-- <link rel="stylesheet" href="../css/framework-elements.css"> -->
     <!-- non critical css -->
+    <link
+      rel="preload"
+      href="../css/framework-elements.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript><link rel="stylesheet" href="../css/framework-elements.css" /></noscript>
     <link
       rel="preload"
       href="../css/non-critical-css.css"
