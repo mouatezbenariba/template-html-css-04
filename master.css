@@ -562,6 +562,7 @@ ul.c-project-content::before {
   position: absolute;
   right: -0.5rem;
   bottom: 1rem;
+  overflow: hidden;
 }
 
 .c-project-image img {
