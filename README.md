@@ -1,7 +1,5 @@
 # [Elzero Web School - HTML CSS Template 04](https://mouatezbenariba.github.io/template-html-css-04/)
 
-## Overview
-
 ### The challenge
 - Convert the provided [Dashboard Design](https://elzero.org/html-css-practice-template-four/) into a website using only HTML and CSS and try to make a simple CSS Framework.
 
@@ -29,7 +27,7 @@
 - Mobile-first workflow
 - CSS Animation / Transitions
 
-# Used Libraries
+### Used Libraries
 
 - Font Awesome Free v5.15.3
 
@@ -39,9 +37,6 @@
 - How to create a custom rectangular and rounded checkbox.
 - How Bootstrap and Tailwind Basically work.
 - I practiced CSS Animations - Flexbox and Grid.
-
-## Author
-- [Osama Mohamed](https://github.com/OsamaElzero)
 
 ## Cloned From Scratch By
 - Linkedin - [Elmouatez Billah Benariba](https://www.linkedin.com/in/mouatezbenariba/)
